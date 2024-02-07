@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #F5F5F5;
+    /* font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Jost', sans-serif; */
+}
+
+.container-body {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    margin: 5vw;
+    
+    border: 1px solid red;
+}
+
+.container-right-foto {
+    max-width: 40vw;
+    margin-left: 45vw;
+
+    border: 1px solid black;
+}
+
+.container-left-intro {
+    max-width: 40vw;
+    margin-top: 15vw;
+    margin-left: 4vw;
+
+    
+    border: 1px solid blue;
+}
+
+.titulo-intro {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.conteudo-intro {
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#vinicius-foto {
+    width: 691px;
+    height: 836px;
+}
