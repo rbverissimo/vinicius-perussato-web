@@ -6,34 +6,36 @@ body {
 }
 
 .container-body {
+    background-image: url(/assets/bg-topo.png);
+    background-size: cover;
+    background-position: center;
     width: 90vw;
     height: 100vh;
     display: flex;
     margin: 5vw;
-    
-    border: 1px solid red;
+
 }
 
 .container-right-foto {
-    max-width: 40vw;
-    margin-left: 45vw;
-
-    border: 1px solid black;
+    max-width: 43vw;
+    margin-left: 48vw;
+    margin-top: -40vh;
 }
 
 .container-left-intro {
     max-width: 40vw;
     margin-top: 15vw;
     margin-left: 4vw;
+}
 
-    
-    border: 1px solid blue;
+.intro {
+    margin-bottom: -10px;
 }
 
 .titulo-intro {
     font-family: 'Fira Sans Extra Condensed', sans-serif;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 38px;
 }
 
 .conteudo-intro {
@@ -42,7 +44,12 @@ body {
     font-size: 20px;
 }
 
+.foto-wrapper {
+    width: 120%;
+
+}
+
 #vinicius-foto {
-    width: 691px;
-    height: 836px;
+    max-width: 100%;
+    max-height: 100%;
 }
