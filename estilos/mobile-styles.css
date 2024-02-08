@@ -11,7 +11,7 @@
         background-image: url(/assets/bg-topo.png);
         background-size: cover;
         background-position: center;
-        width: 90vw;
+        width: 100vw;
         height: 100vh;
         display: flex;
         margin: 5vw;
@@ -20,7 +20,7 @@
 
     .container-right-foto {
         max-width: 45vw;
-        margin-left: 40vw;
+        margin-left: 35vw;
         margin-top: -45vh;
     }
 
