@@ -1,8 +1,7 @@
-
-@media only screen and (min-width: 729px) {
-    
+@media only screen and (max-width: 768px){
+  
     body {
-        margin: 0;
+        padding: 0 10px;
         background-color: #F5F5F5;
         /* font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-family: 'Jost', sans-serif; */
@@ -20,15 +19,19 @@
     }
 
     .container-right-foto {
-        max-width: 43vw;
-        margin-left: 48vw;
-        margin-top: -40vh;
+        max-width: 45vw;
+        margin-left: 40vw;
+        margin-top: -45vh;
     }
 
     .container-left-intro {
         max-width: 40vw;
         margin-top: 15vw;
         margin-left: 4vw;
+    }
+
+    .container-left-intro p:nth-child(2){
+        margin-top: 4vh;
     }
 
     .intro {
@@ -38,13 +41,13 @@
     .titulo-intro {
         font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-weight: 500;
-        font-size: 38px;
+        font-size: 30px;
     }
 
     .conteudo-intro {
         font-family: 'Jost', sans-serif;
         font-weight: 300;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .foto-wrapper {
@@ -56,5 +59,6 @@
         max-width: 100%;
         max-height: 100%;
     }
+    
 
 }
