@@ -18,8 +18,9 @@
     .header-wrapper {
         display: flex;
         width: auto;
+        max-width: 88vw;
         max-height: 15vh;
-        margin-left: 5vw;
+        margin-left: 7.5vw;
         margin-top: 1vw;
 
         border: 1px solid red;
@@ -28,13 +29,14 @@
     #logo-img {
         position: relative;
         top: 1.8vh;
+        border: 1px solid red;
     }
 
     .header-links-wrapper{
         display: inline-flex;
         position: relative;
         bottom: 0.15vh;
-        left: 40vw;
+        left: 32vw;
         padding: 20px;
 
         border: 1px solid red;
@@ -59,15 +61,17 @@
     }
 
     .container-right-foto {
+        position: relative;
         max-width: 43vw;
-        margin-left: 48vw;
-        margin-top: -40vh;
+        left: 48vw;
+        bottom: 33.5vh;
     }
 
     .container-left-intro {
+        position: relative;
         max-width: 40vw;
-        margin-top: 15vw;
-        margin-left: 4vw;
+        top: 7.5vh;
+        left: 7.5vw;
     }
 
     .intro {
@@ -77,7 +81,7 @@
     .titulo-intro {
         font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-weight: 500;
-        font-size: 2.5em;
+        font-size: 2.5rem;
     }
 
     .conteudo-intro {
@@ -87,7 +91,7 @@
     }
 
     .foto-wrapper {
-        width: 120%;
+        width: 100%;
 
     }
 
