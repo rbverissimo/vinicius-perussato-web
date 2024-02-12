@@ -27,13 +27,13 @@
         margin-right: 2.5vw;
         margin-top: 1vw;
 
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     #logo-img {
         position: relative;
         top: 1.5vh;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .idioma-select-wrapper {
@@ -81,14 +81,21 @@
         font-size: 14px;
     }
 
+    .white-space-for-space {
+        display: inline-flex;
+
+        /* border: 1px solid red; */
+    }
+
     .header-links-wrapper{
+        justify-content: flex-end;
         display: inline-flex;
         position: relative;
         bottom: 0.15vh;
-        left: 30vw;
+        left: 25vw;
         padding: 20px;
 
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .link-header {
@@ -114,7 +121,7 @@
         max-width: 43vw;
         left: 48vw;
         bottom: 30vh;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .container-left-intro {
@@ -122,7 +129,7 @@
         max-width: 40.5vw;
         top: 7.5vh;
         left: -2.5vw;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .intro {
@@ -145,7 +152,7 @@
         position: relative;
         bottom: 35px;
         width: 100%;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
 
 
     }
@@ -153,6 +160,24 @@
     #vinicius-foto {
         max-width: 100%;
         max-height: 100%;
+    }
+
+
+    @media screen and (min-width: 1920px) {
+        .header-links-wrapper{
+            left: 40vw;
+        }
+        .titulo-intro {
+            font-family: 'Fira Sans Extra Condensed', sans-serif;
+            font-weight: 500;
+            font-size: 4rem;
+        }
+
+        .conteudo-intro {
+            font-family: 'Jost', sans-serif;
+            font-weight: 300;
+            font-size: 2rem;
+        }       
     }
 
 }
