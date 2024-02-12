@@ -211,6 +211,15 @@
 
 
     @media screen and (min-width: 1920px) {
+
+        #logo-img {
+            top: 3vh;
+        }        
+
+        .logo-wrapper {
+            bottom: 1.5vh;
+            margin-right: 10px;
+        }        
         .header-links-wrapper{
             left: 40vw;
         }
