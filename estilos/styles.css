@@ -1,4 +1,8 @@
-
+:root {
+    --main-green: #56a50e;
+    --dark-green: #397600;
+    --light-green: #b0e57e; 
+}
 @media only screen and (min-width: 729px) {
     
     body {
@@ -18,9 +22,9 @@
     .header-wrapper {
         display: flex;
         width: auto;
-        max-width: 88vw;
         max-height: 15vh;
-        margin-left: 7.5vw;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
         margin-top: 1vw;
 
         border: 1px solid red;
@@ -28,15 +32,60 @@
 
     #logo-img {
         position: relative;
-        top: 1.8vh;
+        top: 1.5vh;
         border: 1px solid red;
+    }
+
+    .idioma-select-wrapper {
+        display: inline-flex;
+        position: relative;
+        padding: 8px;
+        top: 0.4vw;
+        left: 0.5vw;
+
+        /* border: 1px solid red; */
+    }
+
+    #lang-icon {
+        margin-top: 0.25vh;
+        width: 24px;
+        height: 24px;
+    }
+
+    #idioma-select {
+        appearance: none;
+        outline: none;
+        border-top: none;
+        border: none;
+        background-color: transparent;
+        padding: 8px;
+        font-size: 0.9em;
+        border-radius: 4px;
+    }
+
+    .arrow-wrapper {
+        margin-left: 15px;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 55%;
+        right: 0px;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+
+    .arrow::after{
+        content: url('../assets/arrow-down.png');
+        display: inline-block;
+        font-size: 14px;
     }
 
     .header-links-wrapper{
         display: inline-flex;
         position: relative;
         bottom: 0.15vh;
-        left: 32vw;
+        left: 30vw;
         padding: 20px;
 
         border: 1px solid red;
@@ -53,8 +102,8 @@
     }
 
     .container-body {
-        width: 90vw;
-        height: 100vh;
+        width: 95vw;
+        height: 100%;
         display: flex;
         margin: 5vw;
 
@@ -64,14 +113,16 @@
         position: relative;
         max-width: 43vw;
         left: 48vw;
-        bottom: 33.5vh;
+        bottom: 30vh;
+        border: 1px solid red;
     }
 
     .container-left-intro {
         position: relative;
-        max-width: 40vw;
+        max-width: 40.5vw;
         top: 7.5vh;
-        left: 7.5vw;
+        left: -2.5vw;
+        border: 1px solid red;
     }
 
     .intro {
@@ -81,7 +132,7 @@
     .titulo-intro {
         font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-weight: 500;
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
 
     .conteudo-intro {
@@ -91,7 +142,11 @@
     }
 
     .foto-wrapper {
+        position: relative;
+        bottom: 35px;
         width: 100%;
+        border: 1px solid blue;
+
 
     }
 
