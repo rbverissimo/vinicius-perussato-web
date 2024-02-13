@@ -46,7 +46,7 @@
     .logo-wrapper {
         display: inline-flex;
         position: relative;
-        bottom: 2vh;
+        bottom: 3vh;
         margin-right: 10px;
     }
 
@@ -61,14 +61,14 @@
         display: inline-flex;
         position: relative;
         padding: 8px;
-        top: 0.5vw;
+        top: 0.35vw;
         left: 0.5vw;
 
         /* border: 1px solid red; */
     }
 
     #lang-icon {
-        margin-top: 0.8vh;
+        margin-top: 1.25vh;
         width: 24px;
         height: 24px;
     }
@@ -146,11 +146,13 @@
     }
 
     .container-cases {
+        display: flex;
         position: absolute;
-        top: 100%;
-        max-width: 95vw;
-
-        border: 1px solid red;
+        top: 125%;
+        left: 2.5%;
+        min-width: 95%;
+        max-height: 100%;
+        width: 95%;
     }
 
     .container-right-foto {
@@ -222,18 +224,18 @@
 
     .titulo-case hr {
         border: none;
-        height: 1px;
+        height: 2px;
         background-color: #777777;
         position: relative;
-        width: 50%;
+        width: 62%;
         align-self: flex-start;
-        right: 25%;
+        right: 19%;
         bottom: 50px;
     }
 
     .descricao-case {
-        margin-top: 2vw;
-        margin-bottom: 4vw;
+        margin-top: 0.5vw;
+        margin-bottom: 2.5vw;
     }
 
     .descricao-case p {
@@ -252,11 +254,54 @@
     }
 
     .container-case-1 {
-        
+        width: 50%;
+        height: 61.5vh;
+    }
+
+    .container-case-2 {
+        position: relative;
+        top: 60vh;
+        right: 47.5vw;
+        width: 50%;
+        height: 61.5vh;
     }
 
     .container-left-meio {
+        width: 100%;
+    }
 
+    .left-meio-primeiro {
+        margin-bottom: 12.5vh !important;
+    }
+
+    .container-right-meio {
+        display: inline-block;
+        position: relative;
+        left: 100%;
+        width: 100%;
+        bottom: 61.5vh;
+        height: 61.5vh;
+    }
+
+    .container-right-meio img {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .container-right-meio:nth-child(2){
+        
+    }
+
+    .mobile-img {
+    }
+
+    .mobile-img-large {
+        width: 30%;
+    }
+
+    .mobile-img-med {
+        width: 25%;
+        margin-bottom: 4%;
     }
 
 
@@ -264,7 +309,11 @@
 
         #logo-img {
             top: 3vh;
-        }        
+        } 
+
+        #lang-icon {
+            margin-top: 0.8vh;
+        }               
 
         .logo-wrapper {
             bottom: 1.5vh;
@@ -288,6 +337,10 @@
         .arrow-down-wrapper {
             bottom: 50vh;
         }
+
+        .container-right-meio {
+        bottom: 20.75vw;
+        }        
     }
 
     @media screen and (max-width: 926px) {
