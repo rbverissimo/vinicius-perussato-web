@@ -309,6 +309,7 @@
         background-color: #EEEEEE;
         position: absolute;
         bottom: -223%;
+        max-height: 35%;
         width: 100%;
         padding: 20px;
 
@@ -326,6 +327,60 @@
         font-weight: 300;
         font-size: 1.1em;
     }
+
+    .vamos-trabalhar-footer {
+        display: flex;
+    }
+
+    .text-footer-wrapper {
+        display: block;
+        position: relative;
+        bottom: 2vh;
+    }
+
+    .text-footer {
+        display: flex;
+        position: relative;
+        bottom: 2vh;
+    }
+
+    .contato-container {
+        display: flex;
+        align-items: center;
+        max-width: 95%;
+        /* border: 1px solid red; */
+    }
+
+    .contato-icon-text {
+        margin-right: 3vw;
+    }
+
+    .whatsapp-contato {
+        display: inline-flex;
+    }
+
+    .email-contato {
+        display: inline-flex;
+    }
+
+    .linkedin-contato {
+        display: inline-flex;
+    }
+
+    .contato-container p {
+        font-family: var(--common-text);
+        font-weight: 300;
+        font-size: 0.9em;
+    }
+
+    .footer-icon {
+        width: 20px; 
+        height: 20px;
+        position: relative;
+        top: 2.5vh;
+        margin-right: 1vw;
+    }
+
 
     #copyright-end {
         font-weight: 400;
@@ -374,7 +429,11 @@
             bottom: -200%;
             width: 100%;
             padding: 20px;
-        }        
+        } 
+        .footer-icon {
+            top: 1.5vh;
+            margin-right: 1vw;
+        }       
     }
 
     @media screen and (max-width: 926px) {
