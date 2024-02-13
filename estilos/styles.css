@@ -12,7 +12,8 @@
         background-color: #F5F5F5;
         background-image: url(/assets/bg-topo.png);
         background-size: cover;
-        background-position: center;
+        background-position:center;
+        background-repeat: no-repeat;
         /* font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-family: 'Jost', sans-serif; */
     }
@@ -302,6 +303,10 @@
     .mobile-img-med {
         width: 25%;
         margin-bottom: 4%;
+    }
+
+    .footer-wrapper {
+        background-color: #777777;
     }
 
 
