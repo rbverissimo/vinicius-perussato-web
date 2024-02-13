@@ -116,6 +116,7 @@
         position: relative;
         bottom: 0.15vh;
         left: 25vw;
+        max-width: 50%;
         padding: 20px;
 
         /* border: 1px solid red; */
@@ -186,7 +187,7 @@
 
     .foto-wrapper {
         position: relative;
-        bottom: 100px;
+        bottom: 10vh;
         width: 100%;
         /* border: 1px solid blue; */
 
@@ -207,6 +208,55 @@
     #big-arrow-image {
         display: block;
         height: auto;
+    }
+
+    .titulo-case {
+        max-width: 50%;
+    }
+
+    .titulo-case h5 {
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+        font-weight: 400;
+        font-size: 2.5em;
+    }
+
+    .titulo-case hr {
+        border: none;
+        height: 1px;
+        background-color: #777777;
+        position: relative;
+        width: 50%;
+        align-self: flex-start;
+        right: 25%;
+        bottom: 50px;
+    }
+
+    .descricao-case {
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+
+    .descricao-case p {
+        max-width: 40%;
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        font-size: 1.25em;
+    }
+
+    .estudo-caso {
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .container-case-1 {
+        
+    }
+
+    .container-left-meio {
+
     }
 
 
@@ -237,6 +287,30 @@
         
         .arrow-down-wrapper {
             bottom: 50vh;
+        }
+    }
+
+    @media screen and (max-width: 926px) {
+
+        .foto-wrapper {
+            bottom: 0;
+        }
+
+        .titulo-intro {
+            font-size: 1.7em;
+        }
+
+        .conteudo-intro {
+            font-size: 1em;
+        }
+
+        .header-links-wrapper {
+            left: 5vw;
+            max-width: 30%;
+        }
+        
+        .link-header {
+            font-size: 0.75em;
         }
     }
 
