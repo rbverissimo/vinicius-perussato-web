@@ -1,7 +1,9 @@
 :root {
     --main-green: #56a50e;
     --dark-green: #397600;
-    --light-green: #b0e57e; 
+    --light-green: #b0e57e;
+    --common-title: 'Fira Sans Extra Condensed', sans-serif;
+    --common-text: 'Jost', sans-serif;
 }
 @media only screen and (min-width: 729px) {
     
@@ -16,6 +18,7 @@
         background-repeat: no-repeat;
         /* font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-family: 'Jost', sans-serif; */
+        height: 100%;
     }
     
     header {
@@ -139,6 +142,7 @@
         display: flex;
         margin: 5vw;
 
+        /* border: 1px solid red; */
     }
 
     .container-topo {
@@ -154,6 +158,8 @@
         min-width: 95%;
         max-height: 100%;
         width: 95%;
+
+        /* border: 1px solid red; */
     }
 
     .container-right-foto {
@@ -265,6 +271,7 @@
         right: 47.5vw;
         width: 50%;
         height: 61.5vh;
+        /* border: 1px solid red; */
     }
 
     .container-left-meio {
@@ -306,9 +313,30 @@
     }
 
     .footer-wrapper {
-        background-color: #777777;
+        background-color: #EEEEEE;
+        position: absolute;
+        bottom: -223%;
+        width: 100%;
+        padding: 20px;
+
+        /* border: 1px solid red; */
     }
 
+    .footer-text-container h5 {
+        font-family: var(--common-title);
+        font-weight: 400;
+        font-size: 2.5em;
+    }
+
+    .footer-text-container p {
+        font-family: var(--common-text);
+        font-weight: 300;
+        font-size: 1.1em;
+    }
+
+    #copyright-end {
+        font-weight: 400;
+    }
 
     @media screen and (min-width: 1920px) {
 
@@ -344,7 +372,15 @@
         }
 
         .container-right-meio {
-        bottom: 20.75vw;
+            bottom: 20.75vw;
+        }
+
+        .footer-wrapper {
+            background-color: #EEEEEE;
+            position: absolute;
+            bottom: -200%;
+            width: 100%;
+            padding: 20px;
         }        
     }
 
