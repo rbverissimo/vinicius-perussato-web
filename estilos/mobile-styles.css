@@ -1,37 +1,174 @@
 @media only screen and (max-width: 768px){
-  
+
     body {
-        padding: 0 10px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
         background-color: #F5F5F5;
+        background-image: url(/assets/bg-topo.png);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
         /* font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-family: 'Jost', sans-serif; */
+        height: 100%;
+    }
+    
+    header {
+        padding: 10px;
+    }
+
+    .header-wrapper {
+        display: flex;
+        width: auto;
+        max-height: 15vh;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        margin-top: 1vw;
+
+        /* border: 1px solid red; */
+    }
+
+    #logo-img {
+        display: block;
+        position: relative;
+        width: 42.07px;
+        height: 40px;
+        justify-self: center;
+        top: 3.85vh;
+        right: 1vw;
+        /* border: 1px solid red; */
+    }
+
+    .logo-wrapper {
+        display: inline-flex;
+        position: relative;
+        bottom: 3vh;
+        margin-right: 10px;
+    }
+
+    .nome {
+        font-family: 'Anek Latin';
+        font-weight: 500;
+        font-size: 1.75em;
+        text-transform: uppercase;
+    }
+
+    .idioma-select-wrapper {
+        display: inline-flex;
+        position: relative;
+        padding: 8px;
+        top: 0.35vw;
+        left: 0.5vw;
+
+        /* border: 1px solid red; */
+    }
+
+    #lang-icon {
+        margin-top: 1.25vh;
+        width: 24px;
+        height: 24px;
+    }
+
+    #idioma-select {
+        appearance: none;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        padding: 8px;
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        
+        border-radius: 4px;
+    }
+
+    #idioma-select option { 
+        appearance: none;
+        background-color: #F4F4F4; 
+        padding: 8px;
+    }
+
+    .arrow-wrapper {
+        margin-left: 7.5px;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 55%;
+        right: 0px;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+
+    .arrow::after{
+        content: url('../assets/arrow-down.png');
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .header-links-wrapper{
+        justify-content: flex-end;
+        display: inline-flex;
+        position: relative;
+        bottom: 0.15vh;
+        left: 25vw;
+        max-width: 50%;
+        padding: 20px;
+
+        /* border: 1px solid red; */
+    }
+
+    .link-header {
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        font-size: 0.9em;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: black;
+        margin: auto 2vw;
     }
 
     .container-body {
-        background-image: url(/assets/bg-topo.png);
-        background-size: cover;
-        background-position: center;
-        width: 100vw;
-        height: 100vh;
+        width: 95vw;
+        height: 100%;
         display: flex;
         margin: 5vw;
 
+        /* border: 1px solid red; */
+    }
+
+    .container-topo {
+        position: absolute;
+        top: 22.5%;
+    }
+
+    .container-cases {
+        display: flex;
+        position: absolute;
+        top: 125%;
+        left: 2.5%;
+        min-width: 95%;
+        max-height: 100%;
+        width: 95%;
+
+        /* border: 1px solid red; */
     }
 
     .container-right-foto {
-        max-width: 45vw;
-        margin-left: 35vw;
-        margin-top: -45vh;
+        position: relative;
+        max-width: 43vw;
+        left: 47.5vw;
+        bottom: 30vh;
+        /* border: 1px solid red; */
     }
 
     .container-left-intro {
-        max-width: 40vw;
-        margin-top: 15vw;
-        margin-left: 4vw;
-    }
-
-    .container-left-intro p:nth-child(2){
-        margin-top: 4vh;
+        position: relative;
+        max-width: 40.5vw;
+        top: 7.5vh;
+        left: -2.5vw;
+        /* border: 1px solid red; */
     }
 
     .intro {
@@ -41,23 +178,205 @@
     .titulo-intro {
         font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-weight: 500;
-        font-size: 30px;
+        font-size: 2.4rem;
     }
 
     .conteudo-intro {
         font-family: 'Jost', sans-serif;
         font-weight: 300;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .foto-wrapper {
-        width: 120%;
+        position: relative;
+        bottom: 10vh;
+        width: 100%;
+        /* border: 1px solid blue; */
+
 
     }
 
     #vinicius-foto {
         max-width: 100%;
         max-height: 100%;
+    }
+
+    .arrow-down-wrapper {
+        position: relative;
+        bottom: 53vh;
+        left: 40vw;
+    }
+
+    #big-arrow-image {
+        display: block;
+        height: auto;
+    }
+
+    .titulo-case {
+        max-width: 50%;
+    }
+
+    .titulo-case h5 {
+        font-family: 'Fira Sans Extra Condensed', sans-serif;
+        font-weight: 400;
+        font-size: 2.5em;
+    }
+
+    .titulo-case hr {
+        border: none;
+        height: 2px;
+        background-color: #777777;
+        position: relative;
+        width: 62%;
+        align-self: flex-start;
+        right: 19%;
+        bottom: 50px;
+    }
+
+    .descricao-case {
+        margin-top: 0.5vw;
+        margin-bottom: 2.5vw;
+    }
+
+    .descricao-case p {
+        max-width: 40%;
+        font-family: 'Jost', sans-serif;
+        font-weight: 300;
+        font-size: 1.25em;
+    }
+
+    .estudo-caso {
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .container-case-1 {
+        width: 50%;
+        height: 61.5vh;
+    }
+
+    .container-case-2 {
+        position: relative;
+        top: 60vh;
+        right: 47.5vw;
+        width: 50%;
+        height: 61.5vh;
+        /* border: 1px solid red; */
+    }
+
+    .container-left-meio {
+        width: 100%;
+    }
+
+    .left-meio-primeiro {
+        margin-bottom: 12.5vh !important;
+    }
+
+    .container-right-meio {
+        display: inline-block;
+        position: relative;
+        left: 100%;
+        width: 100%;
+        bottom: 61.5vh;
+        height: 61.5vh;
+    }
+
+    .container-right-meio img {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .mobile-img-large {
+        width: 30%;
+    }
+
+    .mobile-img-med {
+        width: 25%;
+        margin-bottom: 4%;
+    }
+
+    .footer-wrapper {
+        background-color: #EEEEEE;
+        position: absolute;
+        bottom: -240%;
+        max-height: 55%;
+        width: 100%;
+        padding: 20px;
+
+        /* border: 1px solid red; */
+    }
+
+    .footer-text-container h5 {
+        font-family: var(--common-title);
+        font-weight: 400;
+        font-size: 2.5em;
+    }
+
+    .footer-text-container p {
+        font-family: var(--common-text);
+        font-weight: 300;
+        font-size: 1.1em;
+    }
+
+    .vamos-trabalhar-footer {
+        display: flex;
+    }
+
+    .text-footer-wrapper {
+        display: block;
+        position: relative;
+        bottom: 2vh;
+    }
+
+    .text-footer {
+        display: flex;
+        position: relative;
+        bottom: 2vh;
+    }
+
+    .contato-container {
+        display: flex;
+        align-items: center;
+        max-width: 95%;
+        /* border: 1px solid red; */
+    }
+
+    .contato-icon-text {
+        margin-right: 3vw;
+    }
+
+    .whatsapp-contato {
+        display: inline-flex;
+    }
+
+    .email-contato {
+        display: inline-flex;
+    }
+
+    .linkedin-contato {
+        display: inline-flex;
+    }
+
+    .contato-container p {
+        font-family: var(--common-text);
+        font-weight: 300;
+        font-size: 0.9em;
+    }
+
+    .footer-icon {
+        width: 20px; 
+        height: 20px;
+        position: relative;
+        top: 2.5vh;
+        margin-right: 1vw;
+    }
+
+
+    #copyright-end {
+        font-weight: 400;
     }
     
 
