@@ -22,37 +22,32 @@
     }
     
     header {
+        display: flex;
+        align-items: center;
         padding: 10px;
     }
 
     .header-wrapper {
         display: flex;
+        align-items: center;
         width: auto;
         max-height: 15vh;
         margin-left: 2.5vw;
         margin-right: 2.5vw;
         margin-top: 1vw;
 
-        /* border: 1px solid red; */
     }
 
     #logo-img {
-        display: block;
-        position: relative;
         width: 42.07px;
         height: 40px;
         justify-self: center;
-        top: 3.85vh;
-        right: 1vw;
-        /* border: 1px solid red; */
+        margin-right: 1vw;
     }
 
     .logo-wrapper {
-        display: inline-flex;
-        position: relative;
-        bottom: 3vh;
-        margin-right: 10px;
-        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
     }
 
     .nome {
@@ -64,16 +59,14 @@
 
     .idioma-select-wrapper {
         display: inline-flex;
+        align-items: center;
         position: relative;
         padding: 8px;
-        top: 0.35vw;
         left: 0.5vw;
 
-        /* border: 1px solid red; */
     }
 
     #lang-icon {
-        margin-top: 1vh;
         width: 24px;
         height: 24px;
     }
@@ -121,10 +114,8 @@
         position: relative;
         bottom: 0.15vh;
         left: 25vw;
-        max-width: 50%;
+        max-width: 100%;
         padding: 20px;
-
-        /* border: 1px solid red; */
     }
 
     .link-header {
@@ -138,45 +129,27 @@
     }
 
     .container-body {
-        width: 95vw;
-        height: 100%;
+        width: 80vw;
+        height: auto;
         display: flex;
-        margin: 5vw;
-
-        /* border: 1px solid red; */
+        align-items: center;
+        margin-left: 10vw;
+        flex-direction: column;
     }
 
     .container-topo {
-        position: absolute;
-        top: 22.5%;
-    }
-
-    .container-cases {
         display: flex;
-        position: absolute;
-        top: 125%;
-        left: 2.5%;
-        min-width: 95%;
-        max-height: 100%;
-        width: 95%;
-
-        /* border: 1px solid red; */
+        height: 50%;
     }
 
     .container-right-foto {
-        position: relative;
-        max-width: 43vw;
-        left: 47.5vw;
-        bottom: 30vh;
-        /* border: 1px solid red; */
+        display: flex;
+        width: 50%;
     }
 
     .container-left-intro {
-        position: relative;
-        max-width: 40.5vw;
-        top: 7.5vh;
-        left: -2.5vw;
-        /* border: 1px solid red; */
+        display: flex;
+        width: 50%;
     }
 
     .intro {
@@ -197,11 +170,8 @@
 
     .foto-wrapper {
         position: relative;
-        bottom: 10vh;
+        bottom: 5vh;
         width: 100%;
-        /* border: 1px solid blue; */
-
-
     }
 
     #vinicius-foto {
@@ -210,18 +180,15 @@
     }
 
     .arrow-down-wrapper {
+        display: flex;
         position: relative;
-        bottom: 53vh;
-        left: 40vw;
+        width: auto;
+        margin-top: 0;
     }
 
     #big-arrow-image {
-        display: block;
+        display: flex;
         height: auto;
-    }
-
-    .titulo-case {
-        max-width: 50%;
     }
 
     .titulo-case h5 {
@@ -235,19 +202,11 @@
         height: 2px;
         background-color: #777777;
         position: relative;
-        width: 62%;
         align-self: flex-start;
-        right: 19%;
         bottom: 50px;
     }
 
-    .descricao-case {
-        margin-top: 0.5vw;
-        margin-bottom: 2.5vw;
-    }
-
     .descricao-case p {
-        max-width: 40%;
         font-family: 'Jost', sans-serif;
         font-weight: 300;
         font-size: 1.25em;
@@ -261,35 +220,19 @@
         cursor: pointer;
     }
 
-    .container-case-1 {
-        width: 50%;
-        height: 61.5vh;
-    }
-
-    .container-case-2 {
-        position: relative;
-        top: 60vh;
-        right: 47.5vw;
-        width: 50%;
-        height: 61.5vh;
-        /* border: 1px solid red; */
+    .container-case {
+        display: flex;
+        width: 80vw;
+        margin-left: 10vw;
     }
 
     .container-left-meio {
-        width: 100%;
+        width: 50%;
     }
-
-    .left-meio-primeiro {
-        margin-bottom: 12.5vh !important;
-    }
-
+ 
     .container-right-meio {
-        display: inline-block;
+        display: flex;
         position: relative;
-        left: 100%;
-        width: 100%;
-        bottom: 61.5vh;
-        height: 61.5vh;
     }
 
     .container-right-meio img {
