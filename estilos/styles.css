@@ -458,13 +458,7 @@
         }
 
         .footer-wrapper {
-            background-color: #EEEEEE;
-            position: absolute;
             bottom: -300%;
-            max-height: 55%;
-            width: 100%;
-            padding: 20px;
-    
             /* border: 1px solid red; */
         }
 
