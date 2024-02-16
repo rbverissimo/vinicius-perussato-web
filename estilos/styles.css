@@ -191,6 +191,10 @@
         height: auto;
     }
 
+    .titulo-case {
+        width: 80%;
+    }
+
     .titulo-case h5 {
         font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-weight: 400;
@@ -202,8 +206,14 @@
         height: 2px;
         background-color: #777777;
         position: relative;
-        align-self: flex-start;
+        width: 60%;
+        right: 20%;
         bottom: 50px;
+    }
+
+    .descricao-case {
+        display: flex;
+        width: 60%;
     }
 
     .descricao-case p {
@@ -224,6 +234,7 @@
         display: flex;
         width: 80vw;
         margin-left: 10vw;
+        margin-top: 15%;
     }
 
     .container-left-meio {
@@ -232,6 +243,7 @@
  
     .container-right-meio {
         display: flex;
+        width: 50%;
         position: relative;
     }
 
@@ -246,53 +258,56 @@
 
     .mobile-img-med {
         width: 25%;
-        margin-bottom: 4%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 
     .footer-wrapper {
         background-color: #EEEEEE;
-        position: absolute;
-        bottom: -240%;
-        max-height: 55%;
+        display: flex;
+        margin-top: 10vh;
         width: 100%;
-        padding: 20px;
+        padding: 2%;
+        height: auto;
+    }
 
-        /* border: 1px solid red; */
+    .footer-text-container {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-left: 15vh;
+
     }
 
     .footer-text-container h5 {
+        position: relative;
         font-family: var(--common-title);
         font-weight: 400;
-        font-size: 2em;
+        font-size: 1.9em;
     }
 
     .footer-text-container p {
         font-family: var(--common-text);
         font-weight: 300;
-        font-size: 0.9em;
-    }
-
-    .vamos-trabalhar-footer {
-        display: flex;
+        font-size: 1em;
     }
 
     .text-footer-wrapper {
-        display: block;
+        display: flex;
+        flex-direction: column;
         position: relative;
-        bottom: 2vh;
     }
 
-    .text-footer {
-        display: flex;
+    .text-footer-wrapper p:nth-child(2){
         position: relative;
-        bottom: 2vh;
     }
 
     .contato-container {
         display: flex;
         align-items: center;
-        max-width: 95%;
-        /* border: 1px solid red; */
+        max-width: 100%;
+        position: relative;
+        height: fit-content;
     }
 
     .contato-icon-text {
@@ -301,14 +316,17 @@
 
     .whatsapp-contato {
         display: inline-flex;
+        align-items: center;
     }
 
     .email-contato {
         display: inline-flex;
+        align-items: center;
     }
 
     .linkedin-contato {
         display: inline-flex;
+        align-items: center;
     }
 
     .contato-container p {
@@ -320,115 +338,12 @@
     .footer-icon {
         width: 20px; 
         height: 20px;
-        position: relative;
-        top: 2vh;
-        margin-right: 1vw;
     }
 
 
     #copyright-end {
         font-weight: 400;
-    }
-
-    @media screen and (min-width: 1920px) {
-
-        #logo-img {
-            top: 3vh;
-        } 
-
-        #lang-icon {
-            margin-top: 0.8vh;
-        }               
-
-
-        .logo-wrapper {
-            bottom: 1.5vh;
-            margin-right: 10px;
-        }        
-        .header-links-wrapper{
-            left: 40vw;
-        }
-        .titulo-intro {
-            font-family: 'Fira Sans Extra Condensed', sans-serif;
-            font-weight: 500;
-            font-size: 4rem;
-        }
-
-        .conteudo-intro {
-            font-family: 'Jost', sans-serif;
-            font-weight: 300;
-            font-size: 2rem;
-        }
-        
-        .arrow-down-wrapper {
-            bottom: 50vh;
-        }
-
-        .container-right-meio {
-            bottom: 20.75vw;
-        }
-
-        .footer-wrapper {
-            background-color: #EEEEEE;
-            position: absolute;
-            bottom: -200%;
-            width: 100%;
-            padding: 20px;
-        } 
-        .footer-icon {
-            top: 1.5vh;
-            margin-right: 1vw;
-        }       
-    }
- 
-    @media screen and (min-width: 2560px){
-
-        .container-right-foto {
-            bottom: 40vh;
-        }
-
-        .header-links-wrapper{
-            left: 50vw;
-            max-width: 60%;
-            padding: 20px;
-    
-            /* border: 1px solid red; */
-        }
-
-        .container-cases {
-            top: 150%;
-            /* border: 1px solid red; */
-        }
-
-        .footer-wrapper {
-            bottom: -300%;
-            /* border: 1px solid red; */
-        }
-
-    }
-
-    @media screen and (max-width: 926px) {
-
-        .foto-wrapper {
-            bottom: 0;
-        }
-
-        .titulo-intro {
-            font-size: 1.7em;
-        }
-
-        .conteudo-intro {
-            font-size: 1em;
-        }
-
-        .header-links-wrapper {
-            left: 5vw;
-            max-width: 30%;
-        }
-        
-        .link-header {
-            font-size: 0.75em;
-        }
+        position: relative;
     }
 
 }
