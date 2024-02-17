@@ -172,13 +172,13 @@
     .subtitle-basic {
         font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-weight: 400;
-        font-size: 2.5em;
+        font-size: 2.0em;
     }
 
     .paragraph-basic {
         font-family: var(--common-text);
         font-weight: 300;
-        font-size: 1.75em;
+        font-size: 1.25em;
     }
 
     .foto-wrapper {
