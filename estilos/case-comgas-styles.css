@@ -1,5 +1,51 @@
-.container-img-centralizado {
-    display: flex;
-    width: 100%;
-    border: 1px solid red;
+@media only screen and (min-width: 729px) {
+
+    .container-body {
+        align-items: start !important;
+    }
+
+    .container-body h4 {
+        font-family: var(--common-title);
+        font-weight: 500;
+        font-size: 2.5rem;
+
+    }
+
+    .container-img-centralizado {
+        display: flex;
+        width: 80%;
+    }
+
+    .mobile-img {
+        margin-left: 1% !important;
+        margin-right: 1% !important;
+    }
+
+    .container-text-topo-fiorino{
+        display: flex;
+        align-items: flex-start;
+        
+    }
+
+    .subtitle-fiorino {
+        display: inline-flex;
+        position: absolute;
+             
+    }
+
+    .text-container-fiorino {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start; 
+        margin-right: 20px;
+        margin-top: 15vh;
+
+    }
+
+    .container-text-topo-fiorino img {
+        max-width: 100%;
+
+    }
+        
 }
