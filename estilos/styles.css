@@ -12,7 +12,7 @@
         padding: 0;
         box-sizing: border-box;
         background-color: #F5F5F5;
-        background-image: url(assets/bg-topo.png);
+        background-image: url(/assets/bg-topo.png);
         background-size: cover;
         background-position:center;
         background-repeat: no-repeat;
@@ -55,6 +55,7 @@
         font-weight: 500;
         font-size: 1.75em;
         text-transform: uppercase;
+        cursor: pointer;
     }
 
     .idioma-select-wrapper {
