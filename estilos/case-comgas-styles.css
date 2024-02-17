@@ -40,11 +40,13 @@
         justify-content: flex-start; 
         margin-right: 20px;
         margin-top: 15vh;
+        max-height: 100%;
 
     }
 
     .container-text-topo-fiorino img {
-        max-width: 100%;
+        max-width: 60%;
+        object-fit: contain;
 
     }
         
