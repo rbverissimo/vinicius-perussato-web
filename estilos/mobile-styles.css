@@ -16,25 +16,26 @@
     header {
         display: flex;
         align-items: center;
-        padding: 10px;
+        padding: 5px;
     }
 
     .header-wrapper {
         display: flex;
         align-items: center;
-        width: auto;
-        max-height: 15vh;
-        margin-left: 2.5vw;
-        margin-right: 2.5vw;
-        margin-top: 1vw;
+        width:  100%;
+        max-height: 20vh;
+        margin-top: 1vh;
+        border: 1px solid red;
+
 
     }
 
     #logo-img {
-        width: 42.07px;
-        height: 40px;
+        width: 100%;
+        height: auto;
         justify-self: center;
         margin-right: 1vw;
+        object-fit: scale-down;
     }
 
     .logo-wrapper {
@@ -45,7 +46,7 @@
     .nome {
         font-family: 'Anek Latin';
         font-weight: 500;
-        font-size: 1.75em;
+        font-size: 1.5em;
         text-transform: uppercase;
         cursor: pointer;
     }
@@ -62,6 +63,8 @@
     #lang-icon {
         width: 24px;
         height: 24px;
+        object-fit: scale-down;
+        display: none;
     }
 
     #idioma-select {
@@ -70,9 +73,10 @@
         border: none;
         background-color: transparent;
         padding: 8px;
+        left: 1vw;
         font-family: 'Jost', sans-serif;
         font-weight: 400;
-        font-size: 1em;
+        font-size: 0.45em;
         
         border-radius: 4px;
     }
@@ -106,15 +110,15 @@
         display: inline-flex;
         position: relative;
         bottom: 0.15vh;
-        left: 25vw;
+        left: 2.5vw;
         max-width: 100%;
-        padding: 20px;
+        padding: 10px;
     }
 
     .link-header {
         font-family: 'Jost', sans-serif;
         font-weight: 400;
-        font-size: 0.9em;
+        font-size: 0.45em;
         text-decoration: none;
         text-transform: uppercase;
         color: black;
@@ -152,13 +156,13 @@
     .titulo-intro {
         font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-weight: 500;
-        font-size: 2.4rem;
+        font-size: 1.3rem;
     }
 
     .conteudo-intro {
         font-family: 'Jost', sans-serif;
         font-weight: 300;
-        font-size: 20px;
+        font-size: 10px;
     }
 
     .foto-wrapper {
@@ -191,7 +195,7 @@
     .titulo-case h5 {
         font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-weight: 400;
-        font-size: 2.5em;
+        font-size: 1.2em;
     }
 
     .titulo-case hr {
@@ -201,7 +205,7 @@
         position: relative;
         width: 60%;
         right: 20%;
-        bottom: 50px;
+        bottom: 25px;
     }
 
     .descricao-case {
@@ -212,7 +216,7 @@
     .descricao-case p {
         font-family: 'Jost', sans-serif;
         font-weight: 300;
-        font-size: 1.25em;
+        font-size: 0.6em;
     }
 
     .estudo-caso {
@@ -228,7 +232,7 @@
         display: flex;
         width: 80vw;
         margin-left: 10vw;
-        margin-top: 15%;
+        margin-top: 10%;
     }
 
     .container-left-meio {
@@ -237,13 +241,15 @@
  
     .container-right-meio {
         display: flex;
-        width: 50%;
+        width: 40%;
         position: relative;
     }
 
-    .container-right-meio img {
+    .mobile-img {
         margin-left: 3%;
         margin-right: 3%;
+        max-height: 100vh;
+        object-fit: scale-down;
     }
 
     .mobile-img {
@@ -263,7 +269,7 @@
     .footer-wrapper {
         background-color: #EEEEEE;
         display: flex;
-        margin-top: 10vh;
+        margin-top: 2vh;
         width: 100vw;
         padding: 0;
         height: auto;
@@ -273,7 +279,7 @@
         position: relative;
         font-family: var(--common-title);
         font-weight: 400;
-        font-size: 1.9em;
+        font-size: 0.75em;
     }
 
     .footer-text-container {
@@ -287,7 +293,7 @@
     .footer-text-container p {
         font-family: var(--common-text);
         font-weight: 300;
-        font-size: 1em;
+        font-size: 0.5em;
     }
 
     .text-footer-wrapper {

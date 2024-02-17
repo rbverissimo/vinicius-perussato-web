@@ -1,12 +1,5 @@
-.construcao-title {
-    font-family: var(--common-title);
-    font-weight: 500;
-    font-size: 4em;
-    text-transform: uppercase;
-}
-
-.easter-egg-botos {
-    font-family: var(--common-text);
-    font-weight: 400;
-    text-transform: uppercase;
+.container-img-centralizado {
+    display: flex;
+    width: 100%;
+    border: 1px solid red;
 }

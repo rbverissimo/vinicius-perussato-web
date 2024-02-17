@@ -249,9 +249,11 @@
         position: relative;
     }
 
-    .container-right-meio img {
+    .mobile-img {
         margin-left: 3%;
         margin-right: 3%;
+        max-height: 100vh;
+        object-fit: scale-down;
     }
 
     .mobile-img-large {
