@@ -12,9 +12,9 @@
         padding: 0;
         box-sizing: border-box;
         background-color: #F5F5F5;
-        background-image: url(/assets/bg-topo.png);
-        background-size: cover;
-        background-position:center;
+        background-image: url("/assets/bg-topo.png");
+        background-size: auto;
+        background-position: top;
         background-repeat: no-repeat;
         /* font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-family: 'Jost', sans-serif; */
@@ -229,6 +229,7 @@
         font-size: 1em;
         text-transform: uppercase;
         cursor: pointer;
+        color: #007CB6;
     }
 
     .container-case {
