@@ -11,14 +11,30 @@
 
     }
 
+    .wrapper-basic-text-title-on-top {
+        display: flex;
+        flex: 1;
+        margin-top: 15vh;
+    }
+
     .container-img-centralizado {
         display: flex;
-        width: 80%;
+        width: 100%;
+        padding: 2%;
+        margin-bottom: 10vh;
+        /* border: 1px solid red; */
+    }
+
+    .wrapper-exemplos-app {
+        display: flex;
+        width: 70%;
+        margin-left: 10%;
+        /* border: 1px solid red; */
     }
 
     .mobile-img {
-        margin-left: 1% !important;
-        margin-right: 1% !important;
+        margin-left: 4% !important;
+        margin-right: 4% !important;
     }
 
     .container-text-topo-fiorino{
@@ -27,27 +43,77 @@
         
     }
 
-    .subtitle-fiorino {
+    .subtitle-text-block {
         display: inline-flex;
         position: absolute;
-             
+        font-size: 2rem !important;
     }
 
-    .text-container-fiorino {
+    .container-text-fiorino {
         flex: 1;
         display: flex;
         flex-direction: column;
         justify-content: flex-start; 
         margin-right: 20px;
         margin-top: 15vh;
-        max-height: 100%;
+        width: 50%;
+        overflow: visible;
+    }
+
+    .fiorino-text {
+        font-size: 1.165rem !important;
+    }
+
+    .fiorino-text-primeiro-p {
+        margin-bottom: 3.5vh;
+    }
+
+    .container-img-fiorino {
+        width: 50%;
+    }
+
+    .container-img-fiorino img {
+        width: 100%;
+    }
+
+    .container-meus-papeis {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        border: 1px solid red;
+    }
+
+    .wrapper-meus-papeis {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        margin-top: 15vh;
 
     }
 
-    .container-text-topo-fiorino img {
-        max-width: 60%;
-        object-fit: contain;
+    .container-meu-impacto-sobre-cliente {
+        display: flex;
+        width: 100%;
+    }
+
+    .wrapper-meu-impacto {
+        display: flex;
+        width: 50%;
+    }
+
+    @media screen and (min-width: 1920px) {
+    
+        .subtitle-fiorino {
+            font-size: 3rem !important;
+        }
+
+        .fiorino-text {
+            font-size: 1.75rem !important;
+        }
+
+        .fiorino-text-primeiro-p {
+            margin-bottom: 2vh;
+        }
 
     }
-        
 }
