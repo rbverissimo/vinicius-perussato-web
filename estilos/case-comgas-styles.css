@@ -108,6 +108,10 @@
         width: 50%;
     }
 
+    .user-statement-subtitle {
+        margin-top: -7.5%;
+    }
+
     @media screen and (min-width: 1920px) {
     
         .subtitle-fiorino {
