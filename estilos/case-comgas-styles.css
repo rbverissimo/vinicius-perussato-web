@@ -40,6 +40,8 @@
     .container-text-topo-fiorino{
         display: flex;
         align-items: flex-start;
+        width: 100%;
+        overflow: hidden;
         
     }
 
@@ -55,25 +57,28 @@
         flex-direction: column;
         justify-content: flex-start; 
         margin-right: 20px;
-        margin-top: 15vh;
+        margin-top: 10%;
         width: 50%;
         overflow: visible;
     }
 
     .fiorino-text {
-        font-size: 1.165rem !important;
+        font-size: 1.1rem !important;
     }
 
     .fiorino-text-primeiro-p {
-        margin-bottom: 3.5vh;
+        margin-bottom: 3vh;
     }
 
     .container-img-fiorino {
         width: 50%;
+        margin-top: auto;
     }
 
     .container-img-fiorino img {
         width: 100%;
+        height: auto;
+        object-fit: scale-down;
     }
 
     .container-meus-papeis {
