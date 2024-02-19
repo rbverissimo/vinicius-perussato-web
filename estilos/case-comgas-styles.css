@@ -80,7 +80,7 @@
         display: flex;
         align-items: flex-start;
         width: 100%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .wrapper-meus-papeis {
@@ -89,6 +89,13 @@
         flex-direction: row;
         margin-top: 15vh;
 
+    }
+
+    .papel-descricao {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        /* border: 1px solid red; */
     }
 
     .container-meu-impacto-sobre-cliente {
