@@ -2,6 +2,7 @@
     --main-green: #56a50e;
     --dark-green: #397600;
     --light-green: #b0e57e;
+    --text-standard-color: #3B3B3B;
     --common-title: 'Fira Sans Extra Condensed', sans-serif;
     --common-text: 'Jost', sans-serif;
 }
@@ -179,12 +180,30 @@
         font-family: var(--common-text);
         font-weight: 500;
         font-size: 1em;
+        color: var(--text-standard-color);
+    }
+
+    .fira-minor-title {
+        font-family: var(--common-title);
+        font-weight: 400;
+        font-size: 1.25em;
+        color: var(--text-standard-color);
     }
 
     .paragraph-basic {
         font-family: var(--common-text);
         font-weight: 300;
         font-size: 1.25em;
+    }
+
+    .paragraph-bold {
+        font-weight: 600 !important;
+        color: var(--text-standard-color);
+    }
+
+    .bold-highlight {
+        font-weight: 600 !important;
+        color: var(--dark-green);
     }
 
     ul.custom-bullets {
@@ -214,6 +233,36 @@
         align-items: flex-start;
         flex-direction: column;
         width: 100%;
+    }
+
+    .container-basic-row {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .container-basic-half-side-column {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        width: 50%;
+    }
+
+    .container-basic-third-row {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        align-items: flex-start;
+        width: 33.3%;
+    }
+
+    .container-basic-third-column {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        align-items: flex-start;
+        width: 33.3%;
     }
     
     .wrapper-highlight-text {
