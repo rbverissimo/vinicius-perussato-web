@@ -194,6 +194,7 @@
         font-family: var(--common-text);
         font-weight: 300;
         font-size: 1.25em;
+        color: var(--text-standard-color)
     }
 
     .paragraph-bold {
@@ -240,6 +241,7 @@
         align-items: flex-start;
         flex-direction: row;
         width: 100%;
+        /* border: 1px solid red; */
     }
 
     .container-basic-half-side-column {
@@ -271,6 +273,15 @@
         align-items: center;
         padding: 5%;
         width: 75%;
+        /* border: 1px solid red; */
+    }
+
+    .container-basic-quarter-column {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 25%;
+        /* border: 1px solid red; */
     }
 
     .foto-wrapper {
