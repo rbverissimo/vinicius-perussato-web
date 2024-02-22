@@ -89,6 +89,11 @@
         margin-top: 6vh;
     }
 
+    .container-margin-big {
+        margin-bottom: 12vh;
+        margin-top: 12vh;
+    }
+
     .side-by-side-row {
         font-family: var(--common-title);
         font-weight: 400 !important;
@@ -98,6 +103,17 @@
 
     .h-container {
         margin-top: -4%;
+    }
+
+    .p-padding-adjust {
+        padding-right: 3% !important;
+        text-justify: distribute;
+    }
+
+    .img-take-100 {
+        height: auto;
+        width: 140%;
+        margin-left: -20%;
     }
 
 

@@ -206,6 +206,11 @@
         color: var(--text-standard-color);
     }
 
+    .p-basic-bolder {
+        font-weight: 400 !important;
+        font-size: 1.25rem !important;
+    }
+
     .paragraph-bold {
         font-weight: 600 !important;
         color: var(--text-standard-color);
@@ -214,6 +219,11 @@
     .bold-highlight {
         font-weight: 600 !important;
         color: var(--dark-green);
+    }
+
+    .bold-highlight-darker {
+        color: var(--text-standard-color); 
+        font-weight: 600;
     }
 
     ul.custom-bullets {
