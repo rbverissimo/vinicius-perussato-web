@@ -1,9 +1,5 @@
 @media only screen and (min-width: 729px) {
 
-    .container-body {
-        align-items: start !important;
-    }
-
     .container-body h4 {
         font-family: var(--common-title);
         font-weight: 500;
@@ -39,68 +35,28 @@
 
     .container-text-topo-fiorino{
         display: flex;
-        align-items: flex-start;
         width: 100%;
-        overflow: hidden;
+        overflow: visible;
+        /* border: 1px solid red; */
         
     }
 
-    .subtitle-text-block {
-        display: inline-flex;
-        position: absolute;
-        font-size: 2rem !important;
-    }
-
-    .container-text-fiorino {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start; 
-        margin-right: 20px;
-        margin-top: 10%;
-        width: 50%;
-        overflow: visible;
-    }
-
     .fiorino-text {
-        font-size: 1.1rem !important;
+        font-size: 1.25rem !important;
     }
 
     .fiorino-text-primeiro-p {
-        margin-bottom: 3vh;
+        z-index: 2;
     }
 
     .container-img-fiorino {
-        width: 50%;
-        margin-top: auto;
+        display: block;
+        width: 60%;
     }
 
     .container-img-fiorino img {
         width: 100%;
         height: auto;
-        object-fit: scale-down;
-    }
-
-    .container-meus-papeis {
-        display: flex;
-        align-items: flex-start;
-        width: 100%;
-        /* border: 1px solid red; */
-    }
-
-    .wrapper-meus-papeis {
-        display: flex;
-        flex: 1;
-        flex-direction: row;
-        margin-top: 15vh;
-
-    }
-
-    .papel-descricao {
-        display: flex;
-        flex-direction: column;
-        width: 25%;
-        /* border: 1px solid red; */
     }
 
     .container-meu-impacto-sobre-cliente {
