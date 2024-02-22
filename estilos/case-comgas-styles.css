@@ -93,8 +93,11 @@
         font-family: var(--common-title);
         font-weight: 400 !important;
         font-size: 3rem !important; 
-        margin-right: 5%; 
-        margin-top: 2%;
+        margin-right: 7%;
+    }
+
+    .h-container {
+        margin-top: -4%;
     }
 
 
