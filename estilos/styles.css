@@ -3,6 +3,7 @@
     --dark-green: #397600;
     --light-green: #b0e57e;
     --text-standard-color: #3B3B3B;
+    --marker-color: #777777;
     --common-title: 'Fira Sans Extra Condensed', sans-serif;
     --common-text: 'Jost', sans-serif;
 }
@@ -19,12 +20,11 @@
         box-sizing: border-box;
         background-color: #F5F5F5;
         background-image: url("../assets/bg-topo.png");
-        background-size: auto;
+        background-size: 100%;
         background-position: top;
         background-repeat: no-repeat;
-        /* font-family: 'Fira Sans Extra Condensed', sans-serif;
-        font-family: 'Jost', sans-serif; */
         height: 100%;
+        max-width: 100vw;
     }
     
     header {
@@ -226,31 +226,9 @@
         font-weight: 600;
     }
 
-    ul.custom-bullets {
-        list-style-type: none;
-        margin-left: 0;
-        width: 100%;
-        /* border: 1px solid red; */
-    }
-
-    ul.custom-bullets-margin-adjust {
-        list-style-type: none;
-        margin-left: -15%;
-        /* border: 1px solid red; */
-    }
-
-    ul.custom-bullets li::before {
-        content: '\2022';
-        color: #777777;
-        position: relative;
-        margin-right: 2%;
-    }
-
-    ul.custom-bullets-margin-adjust li::before {
-        content: '\2022';
-        color: #777777;
-        position: relative;
-        margin-right: 5%;
+    ul.custom-marker li::marker {
+        color: var(--marker-color);
+        font-size: 0.4rem;
     }
 
     .container-basic-column {
