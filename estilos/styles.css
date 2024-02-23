@@ -286,6 +286,48 @@
         /* border: 1px solid red; */
     }
 
+    .slider-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+
+    .slide {
+        min-width: 100%;
+        margin-right: 5%;
+        align-self: center;
+    }
+
+    .slide img {
+        width: 50%;
+        height: auto;
+    }
+
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        z-index: 2;
+    }
+
+    .next {
+        right: 0;
+    }
+
+    .prev {
+        left: 0;
+    }
+
     .image-spacing {
         margin-top: 15%;
         margin-bottom: 15%;
