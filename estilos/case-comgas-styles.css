@@ -97,12 +97,21 @@
         text-align: left;
     }
 
-    .img-take-100 {
-        height: auto;
+    .background-persona {
+        object-fit: scale-down;
         width: 100%;
-        overflow: hidden;
+        height: 95%;
+        z-index: -99;
     }
 
+    .persona-davi {
+        position: absolute;
+        width: 27.5%;
+        height: auto;
+        z-index: 3;
+        left: 35%;
+        top: -4%;
+    }
 
     @media screen and (min-width: 1920px) {
     
