@@ -111,20 +111,51 @@
         z-index: 3;
         left: 35%;
         top: -4%;
+        object-fit: scale-down;
+    }
+
+    .minor-font {
+        font-size: 0.86rem !important;
+    }
+
+    .skill-status-line {
+        line-height: 40px;
+        width: 100%;
+    }
+
+    .skill-status {
+        width: 50%;
+        height: auto;
+        object-fit: contain;
+        justify-self: center;
+        align-self: center;
+        position: relative;
+        top: 0.5em;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .skill-status-adjust {
+        width: 67.5% !important;
+        top: 0;
+        margin-right: 0;
+        margin-left: 15px;
     }
 
     @media screen and (min-width: 1920px) {
     
-        .subtitle-fiorino {
-            font-size: 3rem !important;
-        }
 
         .fiorino-text {
             font-size: 1.75rem !important;
         }
 
-        .fiorino-text-primeiro-p {
-            margin-bottom: 2vh;
+        .skill-status {
+            top: 0.9em;
+        }
+
+        .skill-status-adjust {
+        width: 72.5% !important;
+        top: 0;
         }
 
     }
