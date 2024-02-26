@@ -118,28 +118,38 @@
         font-size: 0.86rem !important;
     }
 
+    .not-so-minor-font {
+        font-size: 1rem;
+    }
+
     .skill-status-line {
-        line-height: 40px;
-        width: 100%;
+        line-height: 2.5em;
     }
 
     .skill-status {
-        width: 50%;
+        width: 90%;
         height: auto;
         object-fit: contain;
         justify-self: center;
         align-self: center;
         position: relative;
-        top: 0.5em;
-        margin-left: 10px;
-        margin-right: 10px;
+        top: 0.35em;
+        padding: 4.25%;
+
     }
 
     .skill-status-adjust {
-        width: 67.5% !important;
-        top: 0;
-        margin-right: 0;
-        margin-left: 15px;
+        padding: 6%;
+        top: 0.01em;
+        left: 0.5em;
+    }
+
+    .ajuste-subtitulo-persona-davi {
+        margin-bottom: 0.5em;
+    }
+
+    .ajuste-fonte-subtitulo-davi {
+        font-size: 2.5rem;
     }
 
     @media screen and (min-width: 1920px) {
@@ -150,12 +160,30 @@
         }
 
         .skill-status {
-            top: 0.9em;
+            width: 100%;
+            top: 0em;
+            margin-right: 2.5em;
         }
 
         .skill-status-adjust {
-        width: 72.5% !important;
-        top: 0;
+            width: 90% !important;
+            top: -0.5em;
+            left: 0;
+        }
+
+        .ajuste-subtitulo-persona-davi {
+            margin-bottom: 1em;
+        }
+
+        .not-so-minor-font {
+            font-size: 1.5rem;
+        }
+
+        .wide-font-subtitle {
+            font-size: 1.25rem !important;
+        }
+        .wide-font-title {
+            font-size: 1.8rem !important;
         }
 
     }

@@ -286,6 +286,14 @@
         /* border: 1px solid red; */
     }
 
+    .container-basic-three-quarters-column {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 75%;
+        /* border: 1px solid red; */
+    }
+
     .slider-container {
         position: relative;
         width: 100%;
