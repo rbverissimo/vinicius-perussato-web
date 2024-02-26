@@ -152,6 +152,16 @@
         font-size: 2.5rem;
     }
 
+    .card-ui-kit {
+        width: 22%;
+        height: auto;
+        margin-right: 0.75em;
+    }
+
+    .tons-cinza {
+        width: 10.7% !important;
+    }
+
     @media screen and (min-width: 1920px) {
     
 
