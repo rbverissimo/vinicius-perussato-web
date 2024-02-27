@@ -301,6 +301,27 @@
         width: 66.6%;
     }
 
+    .container-basic-40-column {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .container-basic-60-column {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .container-basic-20-column {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 20%;
+    }
+
     .slider-container {
         position: relative;
         width: 100%;
