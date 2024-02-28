@@ -98,20 +98,19 @@
     }
 
     .background-persona {
-        object-fit: scale-down;
-        width: 100%;
-        height: 95%;
-        z-index: -99;
+        background-image: url("../assets/persona-davi/davi-bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     .persona-davi {
-        position: absolute;
-        width: 27.5%;
+        display: inline-block;
+        width: 85%;
         height: auto;
         z-index: 3;
-        left: 35%;
-        top: -4%;
         object-fit: scale-down;
+        margin-right: -10%;
+        margin-top: -3%;
     }
 
     .minor-font {
@@ -148,12 +147,21 @@
         left: 0.5em;
     }
 
+    .ajuste-persona {
+        font-size: 1.5rem;
+    }
+
+    .container-persona-titulo {
+        margin-bottom: -15%;
+        margin-top: -15%;
+    }
+
     .ajuste-subtitulo-persona-davi {
         margin-bottom: 0.5em;
     }
 
-    .ajuste-fonte-subtitulo-davi {
-        font-size: 2.5rem;
+    .ajuste-skill-persona {
+        margin-top: -2%;
     }
 
     .card-ui-kit {
@@ -191,8 +199,21 @@
             left: 0;
         }
 
+        .ajuste-persona {
+            font-size: 2.5rem;
+        }
+
+        .ajuste-skill-persona {
+            margin-top: 0;
+        }
+
         .ajuste-subtitulo-persona-davi {
             margin-bottom: 1em;
+        }
+
+        .container-persona-titulo {
+            margin-bottom: -15%;
+            margin-top: -15%;
         }
 
         .not-so-minor-font {
