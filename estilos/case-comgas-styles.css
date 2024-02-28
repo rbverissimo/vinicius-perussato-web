@@ -122,6 +122,10 @@
         font-size: 1rem;
     }
 
+    .medium-title-font {
+        font-size: 1.5rem;
+    }
+
     .skill-status-line {
         line-height: 2.5em;
     }

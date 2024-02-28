@@ -320,6 +320,30 @@
         align-items: flex-start;
         flex-direction: column;
         width: 20%;
+        /* border: 1px solid red; */
+    }
+
+    .container-basic-15-column {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 15%;
+        margin-right: 10px;
+        /* border: 1px solid red; */
+    }
+
+    .container-basic-70-column {
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+        width: 70%;
+    }
+
+    .container-basic-30-column {
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+        width: 30%;
     }
 
     .slider-container {
