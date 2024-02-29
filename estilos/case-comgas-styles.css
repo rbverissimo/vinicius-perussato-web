@@ -180,6 +180,31 @@
         padding: 5px;
     }
 
+    .valor-aside-img {
+        width: 50%;
+        height: auto;
+    }
+
+    .ajuste-grid-valor {
+        margin: 1.5%;
+        min-height: 250px;
+        max-height: 400px;
+    }
+
+    .container-basic-grid {
+        display: grid;
+        width: 100%;
+        align-items: center;
+        grid-template-columns: 10% 90%;
+        gap: 5px;
+    }
+
+    .container-subgrid-50 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+    }
+
     @media screen and (min-width: 1920px) {
     
 

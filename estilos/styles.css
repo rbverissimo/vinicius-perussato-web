@@ -339,6 +339,24 @@
         /* border: 1px solid red; */
     }
 
+    .container-basic-10-column {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 10%;
+        margin-right: 10px;
+        /* border: 1px solid red; */
+    }
+
+    .container-basic-90-column {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 90%;
+        margin-right: 10px;
+        /* border: 1px solid red; */
+    }
+
     .container-basic-70-column {
         flex-direction: column;
         display: flex;
