@@ -135,6 +135,12 @@
         text-transform: uppercase;
         color: black;
         margin: auto 2vw;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.3s ease-in-out;
+    }
+
+    .link-header:hover {
+        border-color: #3B3B3B;
     }
 
     .container-body {
@@ -178,6 +184,10 @@
         font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-weight: 500;
         font-size: 2.4rem;
+    }
+
+    .titulo-intro-ajuste {
+        margin-bottom: -4vh !important;
     }
 
     .conteudo-intro {
@@ -614,6 +624,13 @@
         font-family: var(--common-text);
         font-size: 1rem;
         text-transform: uppercase;
+    }
+
+    @media screen and (min-width: 1920px) {
+
+        .titulo-intro-ajuste {
+            margin-bottom: -2vh !important;
+        }
     }
 
 }
