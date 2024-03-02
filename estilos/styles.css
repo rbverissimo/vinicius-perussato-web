@@ -221,6 +221,7 @@
         font-weight: 300;
         font-size: 1.2rem;
         color: var(--text-standard-color);
+        text-align: justify;
     }
 
     .p-basic-bolder {
@@ -381,46 +382,6 @@
         width: 30%;
     }
 
-    .slider-container {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .slider {
-        display: flex;
-        margin-left: 33.3%;
-        transition: transform 0.5s ease;
-    }
-
-    .slide {
-        min-width: 100%;
-    }
-
-    .slide img {
-        width: 50%;
-        height: auto;
-    }
-
-    .prev, .next {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background-color: rgba(0, 0, 0, 0.5);
-        color: white;
-        border: none;
-        cursor: pointer;
-        padding: 10px;
-        z-index: 2;
-    }
-
-    .next {
-        right: 30%;
-    }
-
-    .prev {
-        left: 30%;
-    }
 
     .image-spacing {
         margin-top: 15%;
@@ -489,6 +450,12 @@
         text-transform: uppercase;
         cursor: pointer;
         color: #007CB6;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.3s ease-in-out;
+    }
+
+    .estudo-caso:hover {
+        border-color: inherit;
     }
 
     .container-case {
@@ -618,12 +585,19 @@
         width: 12.5%;
     }
 
-    .projetos-links-wrapper p {
+    .projetos-links-wrapper span {
         color: #007CB6;
         font-weight: 400;
         font-family: var(--common-text);
         font-size: 1rem;
         text-transform: uppercase;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    .projetos-links-wrapper span:hover {
+        border-color: inherit;
     }
 
     @media screen and (min-width: 1920px) {
@@ -631,6 +605,7 @@
         .titulo-intro-ajuste {
             margin-bottom: -2vh !important;
         }
+
     }
 
 }

@@ -88,6 +88,47 @@
         margin-right: 7%;
     }
 
+    .slider-container {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .slider {
+        display: flex;
+        margin-left: 33.3%;
+        transition: transform 0.5s ease;
+    }
+
+    .slide {
+        min-width: 100%;
+    }
+
+    .slide img {
+        width: 50%;
+        height: auto;
+    }
+
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        z-index: 2;
+    }
+
+    .next {
+        right: 30%;
+    }
+
+    .prev {
+        left: 30%;
+    }    
+
     .h-container {
         margin-top: -4%;
     }
@@ -214,12 +255,35 @@
     }
 
     .esforco-arrow {
-        width: 85%;
-
+        width: 75%;
     }
+
     .sub-grid-span-2 {
         grid-row: 3;
         grid-column: 1 / span 2;
+    }
+
+    .basic-15-image {
+        width: 15%;
+        height: auto;
+        object-fit: contain;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .sub-column {
+        width: 90% !important;
+        justify-content: center !important;
+        align-self: center;
+        padding: 3%;
+    }
+
+    .bigger-font-helper {
+        text-align: left !important;
+    }
+
+    .contour-margin {
+        margin: 2%;
     }
 
     @media screen and (min-width: 1920px) {
@@ -282,6 +346,11 @@
         .esforco-word {
             font-size: 3.5em !important;
             margin-right: 2%;
+        }
+
+        .bigger-font-helper {
+        font-size: 1.75rem !important;
+        text-align: left !important;
         }
 
     }
