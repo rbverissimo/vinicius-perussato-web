@@ -546,19 +546,13 @@
         margin-right: 3vw;
     }
 
-    .whatsapp-contato {
+    .footer-contato {
         display: inline-flex;
         align-items: center;
     }
 
-    .email-contato {
-        display: inline-flex;
-        align-items: center;
-    }
-
-    .linkedin-contato {
-        display: inline-flex;
-        align-items: center;
+    .footer-contato p {
+        cursor: pointer;
     }
 
     .contato-container p {
