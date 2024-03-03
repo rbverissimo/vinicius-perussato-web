@@ -222,7 +222,7 @@
     }
 
     .valor-aside-img {
-        width: 50%;
+        width: 20%;
         height: auto;
     }
 
@@ -254,13 +254,20 @@
         margin-right: 2%;
     }
 
+    .esforco-word-rotate {
+        display: inline-block;
+        transform: rotate(-90deg);
+        margin-top: 30%;
+    }
+
     .esforco-arrow {
-        width: 75%;
+        width: 85%;
     }
 
     .sub-grid-span-2 {
         grid-row: 3;
         grid-column: 1 / span 2;
+        margin-top: 4%;
     }
 
     .basic-15-image {
@@ -336,6 +343,11 @@
         .container-sub-grid-50 {
             gap: 15px;
             padding: 15px;
+        }
+
+        .valor-aside-img {
+            width: 17.5%;
+            height: auto;
         }
 
         .sub-grid-50-item {

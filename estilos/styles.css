@@ -224,6 +224,10 @@
         text-align: justify;
     }
 
+    .list-item-basic {
+        text-align: left !important;
+    }
+
     .p-basic-bolder {
         font-weight: 400 !important;
         font-size: 1.25rem !important;
@@ -450,12 +454,6 @@
         text-transform: uppercase;
         cursor: pointer;
         color: #007CB6;
-        border-bottom: 2px solid transparent;
-        transition: border-color 0.3s ease-in-out;
-    }
-
-    .estudo-caso:hover {
-        border-color: inherit;
     }
 
     .container-case {
