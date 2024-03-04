@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px){
+@media screen and (max-width: 728px){
     body {
         margin: 0;
         padding: 0;
@@ -11,6 +11,15 @@
         /* font-family: 'Fira Sans Extra Condensed', sans-serif;
         font-family: 'Jost', sans-serif; */
         height: 100%;
+    }
+
+    .mobile-header-wrapper {
+        display: flex;
+        width: 100%;
+    }
+
+    .desktop-header-wrapper {
+        display: none;
     }
     
     header {

@@ -141,7 +141,7 @@
     .background-persona {
         background-image: url("../assets/persona-davi/davi-bg.png");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
 
     .persona-davi {
@@ -261,7 +261,7 @@
     }
 
     .esforco-arrow {
-        width: 85%;
+        width: 84%;
     }
 
     .sub-grid-span-2 {

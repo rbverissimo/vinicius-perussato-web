@@ -6,6 +6,7 @@
     <title>Vinícius Perussato - Designer de Produtos Digitais</title>
     <link rel="stylesheet" href="estilos/styles.css">
     <link rel="stylesheet" href="estilos/mobile-styles.css">
+    <link rel="stylesheet" href="estilos/basic-styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Fira+Sans+Extra+Condensed:wght@400;500&family=Jost:wght@300;400;500;600&display=swap');
     </style>
@@ -13,24 +14,39 @@
 <body>
     <div class="header-wrapper">
         <header>
-            <div class="logo-wrapper">
-                <img id="logo-img" src="assets/logo-header.png" alt="">
-                <p onclick="navigateTo('index.html')" class="nome">vinícius perussato</p>
-            </div>
-            <div class="idioma-select-wrapper">
-                <img src="assets/lang-icon.png" id="lang-icon" alt="">
-                <select name="" id="idioma-select">
-                    <option value="index.html">Português (BR)</option>
-                    <option value="index-en.html">English (US)</option>
-                </select>
-                <div class="arrow-wrapper">
-                    <span class="arrow"></span>
+            <div class="mobile-header-wrapper">
+                <div class="container-basic-row">
+                    <div class="container-basic-third-column menu-burguer">
+                        text
+                    </div>
+                    <div class="container-basic-third-column">
+                        <img id="logo-img" src="assets/logo-header.png" alt="">
+                    </div>
+                    <div class="container-basic-third-column">
+                        text
+                    </div>
                 </div>
             </div>
-            <div class="header-links-wrapper">
-                <a class="link-header" href="#">meu trabalho</a>
-                <a class="link-header" href="#">sobre mim</a>
-                <a class="link-header" href="#">contato</a>
+            <div class="desktop-header-wrapper">
+                <div class="logo-wrapper">
+                    <img id="logo-img" src="assets/logo-header.png" alt="">
+                    <p onclick="navigateTo('index.html')" class="nome">vinícius perussato</p>
+                </div>
+                <div class="idioma-select-wrapper">
+                    <img src="assets/lang-icon.png" id="lang-icon" alt="">
+                    <select name="" id="idioma-select">
+                        <option value="index.html">Português (BR)</option>
+                        <option value="index-en.html">English (US)</option>
+                    </select>
+                    <div class="arrow-wrapper">
+                        <span class="arrow"></span>
+                    </div>
+                </div>
+                <div class="header-links-wrapper">
+                    <a class="link-header" href="#">meu trabalho</a>
+                    <a class="link-header" href="#">sobre mim</a>
+                    <a class="link-header" href="#">contato</a>
+                </div>
             </div>
         </header>
     </div>
