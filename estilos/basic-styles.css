@@ -1,33 +1,61 @@
+:root {
+    --main-green: #56a50e;
+    --dark-green: #397600;
+    --light-green: #b0e57e;
+    --text-standard-color: #3B3B3B;
+    --marker-color: #777777;
+    --common-title: 'Fira Sans Extra Condensed', sans-serif;
+    --common-text: 'Jost', sans-serif;
+}    
+
+html {
+    font-size: 16px;
+    cursor: context-menu;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    background-image: url("../assets/bg-topo.png");
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 100vw;
+}
+
 .subtitle-basic {
-      font-family: var(--common-title);
-      font-weight: 400;
-      font-size: 1.75rem;
+    font-family: var(--common-title);
+    font-weight: 400;
+    font-size: 1.75rem;
 }
 
 .minor-title-basic {
-      font-family: var(--common-text);
-      font-weight: 500;
-      font-size: 1em;
-      color: var(--text-standard-color);
+    font-family: var(--common-text);
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--text-standard-color);
 }
 
 .fira-minor-title {
-      font-family: var(--common-title);
-      font-weight: 400;
-      font-size: 1.5rem;
-      color: var(--text-standard-color);
+    font-family: var(--common-title);
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: var(--text-standard-color);
 }
 
 .paragraph-basic {
-      font-family: var(--common-text);
-      font-weight: 300;
-      font-size: 1.2rem;
-      color: var(--text-standard-color);
-      text-align: justify;
+    font-family: var(--common-text);
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: var(--text-standard-color);
+    text-align: justify;
 }
 
 .list-item-basic {
-      text-align: left !important;
+    text-align: left !important;
 }
 
     .p-basic-bolder {
@@ -153,6 +181,14 @@
         flex-direction: column;
         width: 15%;
         margin-right: 10px;
+        /* border: 1px solid red; */
+    }
+
+    .container-basic-15-row {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        width: 15%;
         /* border: 1px solid red; */
     }
 
