@@ -90,11 +90,19 @@
         text-transform: uppercase;
       }
       
-    .menu a {
+    .menu a, span {
         text-decoration: none;
         color: var( --text-standard-color);
         font-family: var(--common-text);
-        font-size: 18px;
+        font-size: 1.1rem;
+    }
+    
+    .menu-hamburguer-sub-menu li {
+        margin-left: 5%;
+    }
+
+    .menu-hamburguer-sub-menu a {
+        font-size: 0.8rem  !important;
     }
 
     .logo-img {
