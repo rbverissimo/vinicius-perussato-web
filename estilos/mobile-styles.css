@@ -74,7 +74,7 @@
       .logo-menu span {
         font-family: 'Anek Latin';
         font-weight: 500;
-        font-size: 1.3em;
+        font-size: 1.1em;
         text-transform: uppercase;
         
       }
@@ -94,7 +94,7 @@
         text-decoration: none;
         color: var( --text-standard-color);
         font-family: var(--common-text);
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .menu-hamburguer-sub-menu li {
