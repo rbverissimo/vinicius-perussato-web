@@ -66,20 +66,6 @@
         color: var(--dark-green);
     }
 
-    .container-margin-small {
-        margin-bottom: 2.5vh;
-        margin-top: 2.5vh;
-    }
-
-    .container-margin-medium {
-        margin-bottom: 6vh;
-        margin-top: 6vh;
-    }
-
-    .container-margin-big {
-        margin-bottom: 12vh;
-        margin-top: 12vh;
-    }
 
     .side-by-side-row {
         font-family: var(--common-title);

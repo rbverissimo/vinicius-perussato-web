@@ -32,9 +32,11 @@ function navigateOut(route){
    */
 const menuToggle = document.getElementById('menu-toggle');
 const menu = document.getElementById('menu');
+const overlay = document.querySelector('.overlay');
 
 menuToggle.addEventListener('click', function(){
     menu.classList.toggle('active');
+    overlay.classList.toggle('active');
 });
 
 document.getElementById('idioma-select').addEventListener('change', function() {

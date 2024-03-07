@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="mobile-header-wrapper">
-        <div class="container-basic-row">
+        <div class="container-basic-row mobile-header-container">
             
             <div class="container-basic-third-column ">
                 <button class="hamburger" id="menu-toggle">
@@ -22,15 +22,21 @@
                     <span class="bar"></span>
                 </button>
                 <nav class="menu" id="menu">
-                    <ul>
-                        <li><a href="">meu trabalho</a></li>
-                        <li><a href="">sobre mim</a></li>
-                        <li><a href="">contato</a></li>
-                    </ul>
+                    <div class="container-basic-row logo-menu">
+                        <img class="logo-img" id="logo-img-mobile-menu" src="assets/logo-header.png" alt="">
+                        <span class="nome">vinícius perussato</span>
+                    </div>
+                    <div class="container-margin-medium">
+                        <ul>
+                            <li><a href="">meu trabalho</a></li>
+                            <li><a href="">sobre mim</a></li>
+                            <li><a href="">contato</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
             <div class="container-basic-third-column">
-                <img id="logo-img-mobile" src="assets/logo-header.png" alt="">
+                <img class="logo-img" id="logo-img-mobile" src="assets/logo-header.png" alt="">
             </div>
             <div class="container-basic-third-column">
                 <div class="container-basic-row lang">
@@ -67,6 +73,7 @@
             </div>
         </header>
     </div>
+    <div class="overlay"></div>
     <div class="container-body">
         <div class="container-topo">
             <div class="container-left-intro">
