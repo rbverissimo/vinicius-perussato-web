@@ -39,12 +39,22 @@ menuToggle.addEventListener('click', function(){
     overlay.classList.toggle('active');
 });
 
+/**
+ * Toggle do sub-menu "meu trabalho"
+ */
+const subMenuToggle = document.getElementById('sub-menu-toggle');
+const subMenuMeuTrabalho = document.getElementById('sub-menu-meu-trabalho');
+subMenuToggle.addEventListener('click', function(){
+    subMenuMeuTrabalho.classList.toggle('active');
+    subMenuToggle.classList.toggle('active');
+})
+
 document.getElementById('idioma-select').addEventListener('change', function() {
     var idiomaSelecionado = this.value;
     if (idiomaSelecionado !== '') {
       window.location.href = idiomaSelecionado;
     }
-  });
+});
 
   /**
    * Implementação do slider

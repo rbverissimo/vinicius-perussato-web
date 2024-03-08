@@ -61,15 +61,33 @@
         transform: translateX(-100%);
         transition: transform 0.3s ease-in-out;
         z-index: 11;
-      }
+    }
       
-      .menu.active {
+    .menu.active {
         transform: translateX(0);
-      }
+    }
+    .menu-item-clickable.active {
+        border-bottom: 1px solid var(--text-standard-color);
+    }
 
-      .logo-menu {
+    .menu-hamburguer-sub-menu li:nth-child(1) {
         margin-top: 5%;
-      }
+    }
+
+    .menu-hamburguer-sub-menu {
+        transform: translateY(-100%);
+        transition: transform 0.3s ease-in-out;
+        display: none;
+    }
+
+    .menu-hamburguer-sub-menu.active {
+        transform: translateY(0);
+        display: block;
+    }
+
+    .logo-menu {
+        margin-top: 5%;
+    }
 
       .logo-menu span {
         font-family: 'Anek Latin';
