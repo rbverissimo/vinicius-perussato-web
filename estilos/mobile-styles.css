@@ -35,6 +35,19 @@
         margin-bottom: 2%;
     }
 
+    .rotate-over-45-bar {
+        transform: rotate(45deg);
+    }
+
+    .hidden-bar {
+        visibility: hidden;
+    }
+
+    .rotate-under-45-bar {
+        transform: rotate(-45deg);
+        margin-top: -4.5%;
+    }
+
     .overlay {
         position: fixed;
         top: 0;
