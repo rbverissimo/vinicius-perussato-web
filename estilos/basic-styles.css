@@ -245,4 +245,41 @@ body {
     .container-margin-big {
         margin-bottom: 12vh;
         margin-top: 12vh;
+    
     }
+    
+.wrapper-inline {
+    display: inline-flex;
+    width: auto;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 45px;
+    background-color: #F4F4F4;
+    min-width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.dropdown-content a {
+    font-family: var(--common-text);
+    font-weight: 400;
+    color: var(--text-standard-color);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f9f9f9;
+}
+
+.show {
+    display: block;
+    opacity: 1;
+}

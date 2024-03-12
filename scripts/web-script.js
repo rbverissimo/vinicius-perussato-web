@@ -46,6 +46,14 @@ menuToggle.addEventListener('click', function(){
     bar3.classList.toggle('rotate-under-45-bar');
 });
 
+function toggleLang() {
+
+  if (window.innerWidth < 728) {
+    var dropdownContent = document.getElementById("dropdown-lang-content");
+    dropdownContent.classList.toggle("show");
+  }
+}
+
 /**
  * Toggle do sub-menu "meu trabalho"
  */
