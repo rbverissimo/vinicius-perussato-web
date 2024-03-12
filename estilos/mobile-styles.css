@@ -33,6 +33,7 @@
         height: 3px;
         background-color: #333;
         margin-bottom: 2%;
+        transition: transform 0.5s ease-in-out;
     }
 
     .rotate-over-45-bar {
@@ -40,12 +41,13 @@
     }
 
     .hidden-bar {
+        transform: translateY(-100%);
         visibility: hidden;
     }
 
     .rotate-under-45-bar {
         transform: rotate(-45deg);
-        margin-top: -4.7%;
+        margin-top: -5.5px;
     }
 
     .overlay {
@@ -88,11 +90,11 @@
     }
 
     .menu-hamburguer-sub-menu {
+        transition: transform 0.3s ease-in-out !important;
         transform: translateY(-100%);
-        transition: transform 0.3s ease-in-out;
         display: none;
     }
-
+    
     .menu-hamburguer-sub-menu.active {
         transform: translateY(0);
         display: block;
