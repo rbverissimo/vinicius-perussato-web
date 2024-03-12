@@ -234,6 +234,12 @@
         align-self: center;
     }
 
+    .sub-grid-50-item ul {
+        font-size: 1.05rem !important;
+        margin-left: -2%;
+        margin-bottom: -5%;
+    }
+
     .esforco-word {
         color: var(--dark-green) !important;
         font-size: 2.4em !important;
@@ -347,9 +353,34 @@
         }
 
         .bigger-font-helper {
-        font-size: 1.75rem !important;
-        text-align: left !important;
+            font-size: 1.75rem !important;
+            text-align: left !important;
         }
 
     }
+    
+    @media screen and (min-width: 2560px) {
+
+        .not-so-minor-font {
+            font-size: 1.1rem !important;
+        }
+
+        .valor-aside-img {
+            width: 12.5%;
+        }
+    
+        .esforco-arrow {
+            width: 75%;
+        }
+
+        .ajuste-persona {
+            font-size: 2.5rem !important;
+        }
+    
+        .container-persona-titulo {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    }
+    
 }
