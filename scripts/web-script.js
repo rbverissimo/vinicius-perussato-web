@@ -47,11 +47,8 @@ menuToggle.addEventListener('click', function(){
 });
 
 function toggleLang() {
-
-  if (window.innerWidth < 728) {
     var dropdownContent = document.getElementById("dropdown-lang-content");
     dropdownContent.classList.toggle("show");
-  }
 }
 
 /**
