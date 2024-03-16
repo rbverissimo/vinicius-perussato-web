@@ -38,13 +38,16 @@ const bar1 = document.getElementById('bar-1');
 const bar2 = document.getElementById('bar-2');
 const bar3 = document.getElementById('bar-3');
 
-menuToggle.addEventListener('click', function(){
+menuToggle.addEventListener('click', toggleAsideMenu);
+overlay.addEventListener('click', toggleAsideMenu);
+
+function toggleAsideMenu() {
     menu.classList.toggle('active');
     overlay.classList.toggle('active');
     bar1.classList.toggle('hidden-bar');
     bar2.classList.toggle('rotate-over-45-bar');
     bar3.classList.toggle('rotate-under-45-bar');
-});
+}
 
 function toggleLang() {
     var dropdownContent = document.getElementById("dropdown-lang-content");
