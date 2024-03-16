@@ -113,11 +113,15 @@
       }
 
       .link-header:hover {
-            border-color: #3B3B3B;
+            border-color: var(--text-standard-color);
       }
 }
 
 @media screen and (max-width: 980px) {
+
+      html {
+            font-size: 14px;
+      }
       
       .mobile-header-wrapper {
             display: flex;

@@ -13,29 +13,78 @@
     </style>
 </head>
 <body>
-    <div class="header-wrapper">
-        <header>
-            <div class="logo-wrapper">
-                <img id="logo-img" src="assets/logo-header.png" alt="">
-                <p onclick="navigateTo('index-en.html')" class="nome">vinícius perussato</p>
+    <div class="mobile-header-wrapper">
+        <div class="container-basic-row mobile-header-container">
+            <div class="container-basic-third-column ">
+                <button class="hamburger" id="menu-toggle">
+                    <span id="bar-1" class="bar"></span>
+                    <span id="bar-2" class="bar"></span>
+                    <span id="bar-3" class="bar"></span>
+                </button>
+                <nav class="menu" id="menu">
+                    <div class="container-basic-row logo-menu">
+                        <img class="logo-img" id="logo-img-mobile-menu" src="assets/logo-header.png" alt="">
+                        <span class="nome">vinícius perussato</span>
+                    </div>
+                    <div class="container-margin-medium">
+                        <ul>
+                            <li><span class="menu-item-clickable" id="sub-menu-toggle">work</span>
+                                <ul id="sub-menu-meu-trabalho" class="menu-hamburguer-sub-menu">
+                                    <li><a href="case-comgas-gesc.html">Comgás - GESC</a></li>
+                                    <li><a href="em-construcao.html">PicPay - Hub de empréstimos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-            <div class="idioma-select-wrapper">
-                <img src="assets/lang-icon.png" id="lang-icon" alt="">
-                <select name="" id="idioma-select">
-                    <option value="index-en.html">English (US)</option>
-                    <option value="index.html">Português (BR)</option>
-                </select>
-                <div class="arrow-wrapper">
-                    <span class="arrow"></span>
+            <div class="container-basic-third-column">
+                <img onclick="navigateTo('index-en.html')" class="logo-img" id="logo-img-mobile" src="assets/logo-header.png" alt="">
+            </div>
+            <div class="container-basic-third-column">
+                <div class="container-basic-row lang">
+                    <div onclick="toggleLang()" class="wrapper-inline dropdown-btn">
+                        <img src="assets/lang-icon.png" id="lang-icon" alt="">
+                        <div class="arrow-wrapper">
+                            <span class="arrow"></span>
+                        </div>
+                    </div>
+                    <div class="dropdown-content" id="dropdown-lang-content">
+                        <a href="em-construcao.html">Português (BR)</a>
+                        <a href="em-construcao-en.html">English (US)</a>
+                    </div>
                 </div>
             </div>
-            <div class="header-links-wrapper">
-                <a class="link-header" href="#">work</a>
-                <a class="link-header" href="#">about</a>
-                <a class="link-header" href="#">contact</a>
+        </div>
+    </div>
+    <div class="header-wrapper">
+        <header>
+            <div class="desktop-header-wrapper">
+                <div class="logo-wrapper">
+                    <img id="logo-img" src="assets/logo-header.png" alt="">
+                    <p onclick="navigateTo('index.html')" class="nome">vinícius perussato</p>
+                </div>
+                <div class="idioma-select-wrapper">
+                    <img src="assets/lang-icon.png" id="lang-icon" alt="">
+                    <select name="" id="idioma-select">
+                        <option value="index.html">Português (BR)</option>
+                        <option value="index-en.html">English (US)</option>
+                    </select>
+                    <div class="arrow-wrapper">
+                        <span class="arrow"></span>
+                    </div>
+                </div>
+                <div class="header-links-wrapper">
+                    <a class="link-header" href="#">work</a>
+                    <a class="link-header" href="#">about</a>
+                    <a class="link-header" href="#">contact</a>
+                </div>
             </div>
         </header>
     </div>
+    <div class="overlay"></div>
     <div class="container-body">
         <div class="container-topo">
             <div class="container-left-intro">

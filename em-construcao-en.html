@@ -13,113 +13,114 @@
     </style>
 </head>
 <body>
-      <div class="mobile-header-wrapper">
-            <div class="container-basic-row mobile-header-container">
-                <div class="container-basic-third-column ">
-                    <button class="hamburger" id="menu-toggle">
-                        <span id="bar-1" class="bar"></span>
-                        <span id="bar-2" class="bar"></span>
-                        <span id="bar-3" class="bar"></span>
-                    </button>
-                    <nav class="menu" id="menu">
-                        <div class="container-basic-row logo-menu">
-                            <img class="logo-img" id="logo-img-mobile-menu" src="assets/logo-header.png" alt="">
-                            <span class="nome">vinícius perussato</span>
-                        </div>
-                        <div class="container-margin-medium">
-                            <ul>
-                                <li><span class="menu-item-clickable" id="sub-menu-toggle">work</span>
-                                    <ul id="sub-menu-meu-trabalho" class="menu-hamburguer-sub-menu">
-                                        <li><a href="case-comgas-gesc.html">Comgás - GESC</a></li>
-                                        <li><a href="em-construcao.html">PicPay - Hub de empréstimos</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-                <div class="container-basic-third-column">
-                    <img class="logo-img" id="logo-img-mobile" src="assets/logo-header.png" alt="">
-                </div>
-                <div class="container-basic-third-column">
-                    <div class="container-basic-row lang">
-                        <div onclick="toggleLang()" class="wrapper-inline dropdown-btn">
-                            <img src="assets/lang-icon.png" id="lang-icon" alt="">
-                            <div class="arrow-wrapper">
-                                <span class="arrow"></span>
-                            </div>
-                        </div>
-                        <div class="dropdown-content" id="dropdown-lang-content">
-                            <a href="em-construcao.html">Português (BR)</a>
-                            <a href="em-construcao-en.html">English (US)</a>
-                        </div>
+    <div class="mobile-header-wrapper">
+        <div class="container-basic-row mobile-header-container">
+            <div class="container-basic-third-column ">
+                <button class="hamburger" id="menu-toggle">
+                    <span id="bar-1" class="bar"></span>
+                    <span id="bar-2" class="bar"></span>
+                    <span id="bar-3" class="bar"></span>
+                </button>
+                <nav class="menu" id="menu">
+                    <div class="container-basic-row logo-menu">
+                        <img class="logo-img" id="logo-img-mobile-menu" src="assets/logo-header.png" alt="">
+                        <span class="nome">vinícius perussato</span>
                     </div>
-                </div>
+                    <div class="container-margin-medium">
+                        <ul>
+                            <li><span class="menu-item-clickable" id="sub-menu-toggle">work</span>
+                                <ul id="sub-menu-meu-trabalho" class="menu-hamburguer-sub-menu">
+                                    <li><a href="case-comgas-gesc.html">Comgás - GESC</a></li>
+                                    <li><a href="em-construcao.html">PicPay - Hub de empréstimos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        </div>
-        <div class="header-wrapper">
-            <header>
-                <div class="desktop-header-wrapper">
-                    <div class="logo-wrapper">
-                        <img id="logo-img" src="assets/logo-header.png" alt="">
-                        <p onclick="navigateTo('index.html')" class="nome">vinícius perussato</p>
-                    </div>
-                    <div class="idioma-select-wrapper">
+            <div class="container-basic-third-column">
+                <img onclick="navigateTo('index-en.html')" class="logo-img" id="logo-img-mobile" src="assets/logo-header.png" alt="">
+            </div>
+            <div class="container-basic-third-column">
+                <div class="container-basic-row lang">
+                    <div onclick="toggleLang()" class="wrapper-inline dropdown-btn">
                         <img src="assets/lang-icon.png" id="lang-icon" alt="">
-                        <select name="" id="idioma-select">
-                            <option value="index.html">Português (BR)</option>
-                            <option value="index-en.html">English (US)</option>
-                        </select>
                         <div class="arrow-wrapper">
                             <span class="arrow"></span>
                         </div>
                     </div>
-                    <div class="header-links-wrapper">
-                        <a class="link-header" href="#">work</a>
-                        <a class="link-header" href="#">about</a>
-                        <a class="link-header" href="#">contact</a>
+                    <div class="dropdown-content" id="dropdown-lang-content">
+                        <a href="em-construcao.html">Português (BR)</a>
+                        <a href="em-construcao-en.html">English (US)</a>
                     </div>
                 </div>
-            </header>
+            </div>
         </div>
-      <main>
-            <div class="container-body">
-                  <div class="container-basic-row">
-                        <h4 style="text-transform: uppercase;" class="subtitle-basic">Coming soon!</h4>
-                  </div>
+    </div>
+    <div class="header-wrapper">
+        <header>
+            <div class="desktop-header-wrapper">
+                <div class="logo-wrapper">
+                    <img id="logo-img" src="assets/logo-header.png" alt="">
+                    <p onclick="navigateTo('index.html')" class="nome">vinícius perussato</p>
+                </div>
+                <div class="idioma-select-wrapper">
+                    <img src="assets/lang-icon.png" id="lang-icon" alt="">
+                    <select name="" id="idioma-select">
+                        <option value="index.html">Português (BR)</option>
+                        <option value="index-en.html">English (US)</option>
+                    </select>
+                    <div class="arrow-wrapper">
+                        <span class="arrow"></span>
+                    </div>
+                </div>
+                <div class="header-links-wrapper">
+                    <a class="link-header" href="#">work</a>
+                    <a class="link-header" href="#">about</a>
+                    <a class="link-header" href="#">contact</a>
+                </div>
             </div>
-      </main>
-      <div class="footer-wrapper">
-            <div class="footer-text-container">
-                  <h5 class="footer-title">Let's work together!</h5>
-                  <div class="text-footer-wrapper">
-                        <p>Are you interested in my work, or would you like chat with me?</p>
-                        <p style="margin-top: -1%;">Get in touch and let's talk!</p>
-                  </div>
-                  <div class="contato-container">
-                        <div class="footer-contato contato-icon-text">
-                              <img class="footer-icon" src="assets/whatsapp-icon.png" alt="">
-                              <p>+55 11 97042-2797</p>
-                        </div>
-                        <div class="footer-contato contato-icon-text">
-                              <img class="footer-icon" src="assets/mail-icon.png" alt="">
-                              <p>viniciusalonso.d@gmail.com</p>
-                        </div>
-                        <div class="footer-contato contato-icon-text">
-                              <img class="footer-icon" src="assets/linkedin-icon.png" alt="">
-                              <p>linkedin.com/in/viniciusperussato</p>
-                        </div>
-                  </div>
-                  <p id="copyright-end"> &copy; Vinícius Perussato. All rights reserved.</p>
+        </header>
+    </div>
+    <div class="overlay"></div>
+    <main>
+        <div class="container-body">
+            <div class="container-basic-row">
+                    <h4 style="text-transform: uppercase;" class="subtitle-basic">Coming soon!</h4>
             </div>
-            <div class="projetos-links-wrapper">
-                  <h5 class="footer-title">Projects</h5>
-                  <span onclick="navigateTo('case-comgas-gesc-en.html')">comgás - gesc</span><br><br>
-                  <span onclick="navigateTo('em-construcao-en.html')">picpay - hub de empréstimos</span>
+        </div>
+    </main>
+    <div class="footer-wrapper">
+        <div class="footer-text-container">
+            <h5 class="footer-title">Let's work together!</h5>
+            <div class="text-footer-wrapper">
+                <p>Are you interested in my work, or would you like chat with me?</p>
+                <p style="margin-top: -1%;">Get in touch and let's talk!</p>
             </div>
-      </div>
-      <script src="scripts/web-script.js"></script>      
+            <div class="contato-container">
+                    <div class="footer-contato contato-icon-text">
+                        <img class="footer-icon" src="assets/whatsapp-icon.png" alt="">
+                        <p>+55 11 97042-2797</p>
+                    </div>
+                    <div class="footer-contato contato-icon-text">
+                        <img class="footer-icon" src="assets/mail-icon.png" alt="">
+                        <p>viniciusalonso.d@gmail.com</p>
+                    </div>
+                    <div class="footer-contato contato-icon-text">
+                            <img class="footer-icon" src="assets/linkedin-icon.png" alt="">
+                            <p>linkedin.com/in/viniciusperussato</p>
+                    </div>
+            </div>
+            <p id="copyright-end"> &copy; Vinícius Perussato. All rights reserved.</p>
+        </div>
+        <div class="projetos-links-wrapper">
+            <h5 class="footer-title">Projects</h5>
+            <span onclick="navigateTo('case-comgas-gesc-en.html')">comgás - gesc</span><br><br>
+            <span onclick="navigateTo('em-construcao-en.html')">picpay - hub de empréstimos</span>
+        </div>
+    </div>
+    <script src="scripts/web-script.js"></script>      
 </body>
 </html>
