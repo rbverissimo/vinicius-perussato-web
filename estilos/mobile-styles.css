@@ -64,13 +64,13 @@
     }
 
     .titulo-case {
-        width: 80%;
+        width: 100%;
     }
 
     .titulo-case h5 {
         font-family: var(--common-title);
         font-weight: 400;
-        font-size: 1.2em;
+        font-size: 2rem;
     }
 
     .titulo-case hr {
@@ -78,45 +78,57 @@
         height: 2px;
         background-color: #777777;
         position: relative;
-        width: 60%;
-        right: 20%;
         bottom: 25px;
+    }
+
+    .hr-comgas {
+        width: 50% !important;
+        right: 25%;
+    }
+
+    .hr-picpay {
+        width: 90% !important;
+        right: 5%;
     }
 
     .descricao-case {
         display: flex;
-        width: 60%;
+        width: 100%;
     }
 
     .descricao-case p {
         font-family: 'Jost', sans-serif;
         font-weight: 300;
-        font-size: 0.6em;
+        font-size: 1.25rem;
     }
 
     .estudo-caso {
-        font-family: 'Jost', sans-serif;
+        font-family: var(--common-text);
         font-weight: 400;
         font-size: 1em;
         text-transform: uppercase;
         cursor: pointer;
-        color: #007CB6;
+        color: var(--text-button-blue-color);
     }
 
     .container-case {
         display: flex;
+        flex-direction: column;
         width: 80vw;
         margin-left: 10vw;
+        margin-top: 0;
+        margin-bottom: 10%;
     }
 
     .container-left-meio {
-        width: 50%;
+        width:  100%;
     }
 
     .container-right-meio {
         display: flex;
-        width: 40%;
+        width: 100%;
         position: relative;
+        margin-top: 15%;
     }
 
     .mobile-img {
@@ -139,105 +151,4 @@
         margin-top: 5%;
         margin-bottom: 5%;
     }
-
-    .footer-wrapper {
-        background-color: #EEEEEE;
-        display: flex;
-        margin-top: 2vh;
-        width: 100vw;
-        padding: 0;
-        height: auto;
-    }
-
-    .footer-title {
-        position: relative;
-        font-family: var(--common-title);
-        font-weight: 400;
-        font-size: 0.75em;
-    }
-
-    .footer-text-container {
-        display: flex;
-        flex-direction: column;
-        width: 67.5%;
-        height: auto;
-        margin-left: 10%;
-    }
-
-    .footer-text-container p {
-        font-family: var(--common-text);
-        font-weight: 300;
-        font-size: 0.5em;
-    }
-
-    .text-footer-wrapper {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        bottom: 10%;
-    }
-
-    .text-footer-wrapper p:nth-child(2){
-        position: relative;
-    }
-
-    .contato-container {
-        display: flex;
-        align-items: center;
-        max-width: 100%;
-        position: relative;
-        height: fit-content;
-        margin-top:  0;
-    }
-
-    .contato-icon-text {
-        margin-right: 3vw;
-    }
-
-    .whatsapp-contato {
-        display: inline-flex;
-        align-items: center;
-    }
-
-    .email-contato {
-        display: inline-flex;
-        align-items: center;
-    }
-
-    .linkedin-contato {
-        display: inline-flex;
-        align-items: center;
-    }
-
-    .contato-container p {
-        font-family: var(--common-text);
-        font-weight: 300;
-        font-size: 0.35em;
-    }
-
-    .footer-icon {
-        width: 12px; 
-        height: 12px;
-        object-fit: scale-down;
-        margin-right: 1vw;
-    }
-
-
-    #copyright-end {
-        font-weight: 400;
-        position: relative;
-    }
-
-    .projetos-links-wrapper  {
-        width: 12.5%;
-    }
-
-    .projetos-links-wrapper p {
-        color: #007CB6;
-        font-weight: 400;
-        font-family: var(--common-text);
-        font-size: 0.45rem;
-        text-transform: uppercase;
-    }
-
 }
