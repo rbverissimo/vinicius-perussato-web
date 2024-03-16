@@ -32,7 +32,7 @@
     .titulo-intro {
         font-family: var(--common-title);
         font-weight: 500;
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
 
     .conteudo-intro {
@@ -87,8 +87,8 @@
     }
 
     .hr-picpay {
-        width: 90% !important;
-        right: 5%;
+        width: 95% !important;
+        right: 2.5%;
     }
 
     .descricao-case {

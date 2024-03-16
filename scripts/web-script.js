@@ -33,6 +33,7 @@ function navigateOut(route){
 const menuToggle = document.getElementById('menu-toggle');
 const menu = document.getElementById('menu');
 const overlay = document.querySelector('.overlay');
+const overlayTransparent = document.querySelector('.overlay-transparent');
 
 const bar1 = document.getElementById('bar-1');
 const bar2 = document.getElementById('bar-2');
@@ -40,6 +41,7 @@ const bar3 = document.getElementById('bar-3');
 
 menuToggle.addEventListener('click', toggleAsideMenu);
 overlay.addEventListener('click', toggleAsideMenu);
+overlayTransparent.addEventListener('click', toggleLang);
 
 function toggleAsideMenu() {
     menu.classList.toggle('active');
@@ -52,6 +54,7 @@ function toggleAsideMenu() {
 function toggleLang() {
     var dropdownContent = document.getElementById("dropdown-lang-content");
     dropdownContent.classList.toggle("show");
+    overlayTransparent.classList.toggle('active');
 }
 
 /**
