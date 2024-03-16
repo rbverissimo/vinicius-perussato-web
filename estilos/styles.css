@@ -18,6 +18,10 @@
         margin-left: 10vw;
     }
 
+    .container-basic-column-mobile {
+        display: none;
+    }
+
     .container-topo {
         display: flex;
         height: 50%;
