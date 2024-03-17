@@ -288,4 +288,13 @@ body {
 
 @media screen and (max-width: 728px){
 
+    .mobile-row-to-column {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .mobile-width {
+        width: 100% !important;
+    }
+
 }

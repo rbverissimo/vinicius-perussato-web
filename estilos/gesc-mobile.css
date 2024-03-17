@@ -1,60 +1,50 @@
-@media only screen and (min-width: 729px) {
+@media screen and (max-width: 728px) {
 
-    .container-body h4 {
-        font-family: var(--common-title);
-        font-weight: 500;
-        font-size: 2.5rem;
+      .container-body h4 {
+            font-family: var(--common-title);
+            font-weight: 500;
+            font-size: 2rem;
+      }
 
-    }
+      .container-img-centralizado {
+            display: flex;
+            width: 100%;
+      }
 
-    .container-img-centralizado {
-        display: flex;
-        width: 100%;
-        padding: 2%;
-        margin-bottom: 10vh;
-        /* border: 1px solid red; */
-    }
-
-    .title-coletando {
+      .title-coletando {
             z-index: 3; 
             position: relative;
-    }
+      }
 
-    .wrapper-exemplos-app {
-        display: flex;
-        width: 70%;
-        margin-left: 10%;
-        /* border: 1px solid red; */
-    }
+      .wrapper-exemplos-app {
+            display: flex;
+            width: 100%;
+      }
 
-    .mobile-img {
-        margin-left: 4% !important;
-        margin-right: 4% !important;
-    }
+      .mobile-img {
+            margin-left: 4% !important;
+            margin-right: 4% !important;
+      }
 
-    .container-text-topo-fiorino{
-        display: flex;
-        width: 100%;
-        overflow: visible;
-        /* border: 1px solid red; */
-        
-    }
+      .container-text-topo-fiorino{
+            display: flex;
+            width: 100%;
+      }
 
-    .fiorino-text {
-        font-size: 1.25rem !important;
-        text-align: left;
-        overflow: visible;
-    }
+      .fiorino-text {
+            font-size: 1.25rem !important;
+            text-align: left;
+            overflow: visible;
+      }
 
-    .fiorino-img {
-        float: right;
-        width: 50%;
-    }
+      .fiorino-img {
+            width: 100%;
+      }
 
-    .container-meu-impacto-sobre-cliente {
-        display: flex;
-        width: 100%;
-    }
+      .container-meu-impacto-sobre-cliente {
+            display: flex;
+            width: 100%;
+      }
 
     .wrapper-meu-impacto {
         display: flex;
@@ -289,103 +279,4 @@
     .contour-margin {
         margin: 2%;
     }
-
-    @media screen and (min-width: 1920px) {
-    
-
-        .fiorino-text {
-            font-size: 1.75rem !important;
-        }
-
-        .skill-status {
-            width: 100%;
-            top: 0em;
-            margin-right: 2.5em;
-        }
-
-        .skill-status-adjust {
-            width: 90% !important;
-            top: -0.5em;
-            left: 0;
-        }
-
-        .ajuste-persona {
-            font-size: 2.5rem;
-        }
-
-        .ajuste-skill-persona {
-            margin-top: 0;
-        }
-
-        .ajuste-subtitulo-persona-davi {
-            margin-bottom: 1em;
-        }
-
-        .container-persona-titulo {
-            margin-bottom: -15%;
-            margin-top: -15%;
-        }
-
-        .not-so-minor-font {
-            font-size: 1.5rem;
-        }
-
-        .wide-font-subtitle {
-            font-size: 1.25rem !important;
-        }
-        .wide-font-title {
-            font-size: 1.8rem !important;
-        }
-
-        .container-sub-grid-50 {
-            gap: 15px;
-            padding: 15px;
-        }
-
-        .valor-aside-img {
-            width: 17.5%;
-            height: auto;
-        }
-
-        .sub-grid-50-item {
-            border-radius: 12px;
-            min-height: 20em;
-        }
-
-        .esforco-word {
-            font-size: 3.5em !important;
-            margin-right: 2%;
-        }
-
-        .bigger-font-helper {
-            font-size: 1.75rem !important;
-            text-align: left !important;
-        }
-
-    }
-    
-    @media screen and (min-width: 2560px) {
-
-        .not-so-minor-font {
-            font-size: 1.1rem !important;
-        }
-
-        .valor-aside-img {
-            width: 12.5%;
-        }
-    
-        .esforco-arrow {
-            width: 75%;
-        }
-
-        .ajuste-persona {
-            font-size: 2.5rem !important;
-        }
-    
-        .container-persona-titulo {
-            margin-bottom: 0;
-            margin-top: 0;
-        }
-    }
-    
 }
