@@ -29,6 +29,7 @@
       .container-text-topo-fiorino{
             display: flex;
             width: 100%;
+            margin-bottom: 20%;
       }
 
       .fiorino-text {
@@ -46,28 +47,29 @@
             width: 100%;
       }
 
-    .wrapper-meu-impacto {
-        display: flex;
-        width: 50%;
-    }
+      .wrapper-meu-impacto {
+            display: flex;
+      }
 
-    .user-statement-subtitle {
-        margin-top: -7.5%;
-    }
+      .user-statement-subtitle {
+            margin-top: -7.5%;
+            font-size: 1rem !important; 
+            color: var(--dark-green);
+      }
 
-    .highlight-ajuste {
-        font-weight: 600 !important; 
-        font-size: 1em !important;
-        color: var(--dark-green);
-    }
+      .highlight-ajuste {
+            font-weight: 600 !important; 
+            font-size: 1em !important;
+            color: var(--dark-green);
+      }
 
 
-    .side-by-side-row {
-        font-family: var(--common-title);
-        font-weight: 400 !important;
-        font-size: 3rem !important; 
-        margin-right: 7%;
-    }
+      .side-by-side-row {
+            font-family: var(--common-title);
+            font-weight: 400 !important;
+            font-size: 3rem !important; 
+            margin-right: 7%;
+      }
 
     .slider-container {
         position: relative;

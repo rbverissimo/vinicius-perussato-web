@@ -59,37 +59,33 @@ body {
     text-align: left !important;
 }
 
-    .p-basic-bolder {
-        font-weight: 400 !important;
-        font-size: 1.25rem !important;
-    }
+.p-basic-bolder {
+    font-weight: 400 !important;
+    font-size: 1.25rem !important;
+}
 
-    .paragraph-bold {
-        font-weight: 600 !important;
-        color: var(--text-standard-color);
-    }
+.paragraph-bold {
+    font-weight: 600 !important;
+    color: var(--text-standard-color);
+}
 
-    .bold-highlight {
-        font-weight: 600 !important;
-        color: var(--dark-green);
-    }
+.bold-highlight {
+    font-weight: 600 !important;
+    color: var(--dark-green);
+}
 
-    .bold-highlight-darker {
-        color: var(--text-standard-color); 
-        font-weight: 600;
-    }
 
-    ul.custom-marker li::marker {
-        color: var(--marker-color);
-        font-size: 0.4rem;
-    }
+ul.custom-marker li::marker {
+    color: var(--marker-color);
+    font-size: 0.4rem;
+}
 
-    .container-basic-column {
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        width: 100%;
-    }
+.container-basic-column {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
 
     .container-basic-row {
         display: flex;
@@ -126,8 +122,9 @@ body {
         display: flex;
         align-self: center;
         align-items: center;
+        justify-content: center;
         padding: 5%;
-        width: 75%;
+        width: 100%;
         /* border: 1px solid red; */
     }
 
@@ -287,6 +284,10 @@ body {
 }
 
 @media screen and (max-width: 728px){
+
+    .subtitle-basic {
+        font-size: 1.65rem;
+    }
 
     .mobile-row-to-column {
         display: flex;

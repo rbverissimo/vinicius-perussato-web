@@ -51,6 +51,10 @@
         width: 50%;
     }
 
+    .container-titulo-meus-papeis {
+        margin-top:  -3vh;
+    }
+
     .container-meu-impacto-sobre-cliente {
         display: flex;
         width: 100%;
@@ -63,6 +67,8 @@
 
     .user-statement-subtitle {
         margin-top: -7.5%;
+        font-size: 0.75rem !important; 
+        color: var(--dark-green);
     }
 
     .highlight-ajuste {
