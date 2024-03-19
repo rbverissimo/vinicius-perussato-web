@@ -296,6 +296,22 @@
         margin: 2%;
     }
 
+    .desktop-dores-e-descobertas {
+        display: flex !important;
+    }
+
+    .mobile-dores-e-descobertas {
+        display: none !important;
+    }
+
+    .desktop-davi {
+        display: flex !important;
+    }
+
+    .mobile-davi {
+        display: none !important;
+    }
+
     @media screen and (min-width: 1920px) {
     
 
@@ -368,13 +384,6 @@
             text-align: left !important;
         }
 
-        .desktop-dores-e-descobertas {
-            display: flex;
-        }
-
-        .mobile-dores-e-descobertas {
-            display: none;
-        }
 
     }
     

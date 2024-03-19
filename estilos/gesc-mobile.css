@@ -282,4 +282,14 @@
     .mobile-dores-e-descobertas {
         display: flex;
     }
+
+    .desktop-davi {
+        display: none !important;
+    }
+
+    .mobile-davi {
+        display: flex !important;
+    }
+
+    
 }
