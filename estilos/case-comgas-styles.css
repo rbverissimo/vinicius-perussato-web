@@ -1,4 +1,4 @@
-@media only screen and (min-width: 729px) {
+@media screen and (min-width: 729px) {
 
     .container-body h4 {
         font-family: var(--common-title);
@@ -366,6 +366,14 @@
         .bigger-font-helper {
             font-size: 1.75rem !important;
             text-align: left !important;
+        }
+
+        .desktop-dores-e-descobertas {
+            display: flex;
+        }
+
+        .mobile-dores-e-descobertas {
+            display: none;
         }
 
     }

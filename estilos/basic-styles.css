@@ -285,6 +285,10 @@ ul.custom-marker li::marker {
 
 @media screen and (max-width: 728px){
 
+    .text-align-left-corrector {
+        text-align: left !important;
+    }
+
     .subtitle-basic {
         font-size: 1.65rem;
     }
@@ -296,6 +300,15 @@ ul.custom-marker li::marker {
 
     .mobile-width {
         width: 100% !important;
+    }
+
+    .mobile-half-width {
+        width: 50% !important;
+    }
+
+    .padding-helper {
+        padding-left: 6%;
+        padding-right: 6%;
     }
 
 }

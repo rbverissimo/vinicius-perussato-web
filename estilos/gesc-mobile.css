@@ -1,10 +1,10 @@
 @media screen and (max-width: 728px) {
 
-      .container-body h4 {
+    .container-body h4 {
             font-family: var(--common-title);
             font-weight: 500;
             font-size: 2rem;
-      }
+    }
 
       .container-img-centralizado {
             display: flex;
@@ -260,11 +260,12 @@
     }
 
     .basic-15-image {
-        width: 15%;
+        width: 25%;
         height: auto;
         object-fit: contain;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-top: 40%;
+        margin-bottom: 12.5%;
+        align-self: center;
     }
 
     .sub-column {
@@ -274,11 +275,11 @@
         padding: 3%;
     }
 
-    .bigger-font-helper {
-        text-align: left !important;
+    .desktop-dores-e-descobertas {
+        display: none;
     }
 
-    .contour-margin {
-        margin: 2%;
+    .mobile-dores-e-descobertas {
+        display: flex;
     }
 }
