@@ -118,15 +118,15 @@ ul.custom-marker li::marker {
         width: 33.3%;
     }
     
-    .wrapper-highlight-text {
-        display: flex;
-        align-self: center;
-        align-items: center;
-        justify-content: center;
-        padding: 5%;
-        width: 100%;
-        /* border: 1px solid red; */
-    }
+.wrapper-highlight-text {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
 
     .container-basic-quarter-column {
         display: flex;
@@ -245,6 +245,10 @@ ul.custom-marker li::marker {
         margin-top: 12vh;
     
     }
+
+.container-margin-top-medium {
+    margin-top: 6vh;
+}
     
 .wrapper-inline {
     display: inline-flex;
@@ -285,6 +289,11 @@ ul.custom-marker li::marker {
 
 @media screen and (max-width: 728px){
 
+
+    .minor-title-basic {
+        font-size: 1.25rem;
+    }
+    
     .text-align-left-corrector {
         text-align: left !important;
     }
