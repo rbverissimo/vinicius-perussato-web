@@ -124,17 +124,14 @@
     .background-persona {
         background-image: url("../assets/persona-davi/davi-bg.png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 700px;
+        object-fit: scale-down;
     }
 
     .persona-davi {
-        display: inline-block;
-        width: 85%;
-        height: auto;
-        z-index: 3;
-        object-fit: scale-down;
-        margin-left: 5%;
-        margin-top: -3%;
+        display: inline-flex;
+        width: 120%;
+        margin-top: -10%;
     }
 
     .minor-font {
