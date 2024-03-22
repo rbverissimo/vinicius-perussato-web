@@ -11,13 +11,6 @@
         /* overflow-x: hidden; */
     }
 
-    .container-basic {
-        width: 80vw;
-        display: flex;
-        align-items: flex-start;
-        margin-left: 10vw;
-    }
-
     .container-basic-column-mobile {
         display: none;
     }

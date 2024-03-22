@@ -74,6 +74,12 @@ body {
     color: var(--dark-green);
 }
 
+.container-basic {
+    width: 80vw;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10vw;
+}
 
 ul.custom-marker li::marker {
     color: var(--marker-color);
@@ -87,13 +93,13 @@ ul.custom-marker li::marker {
     width: 100%;
 }
 
-    .container-basic-row {
-        display: flex;
-        align-items: flex-start;
-        flex-direction: row;
-        width: 100%;
-        /* border: 1px solid red; */
-    }
+.container-basic-row {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    /* border: 1px solid red; */
+}
 
     .container-basic-half-side-column {
         display: flex;
@@ -227,6 +233,11 @@ ul.custom-marker li::marker {
         margin-top: 15%;
         margin-bottom: 15%;
         max-width: 100%;
+        height: auto;
+    }
+
+    .flex-image {
+        width: 100%;
         height: auto;
     }
 
