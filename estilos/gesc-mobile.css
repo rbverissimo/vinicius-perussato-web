@@ -195,8 +195,16 @@
         padding: 5px;
     }
 
+    .valor-aside-container {
+            text-align: center; 
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 100%;
+    }
+
     .valor-aside-img {
-        width: 50%;
+        width: 70%;
     }
 
     .container-basic-grid {
@@ -231,18 +239,19 @@
 
     .esforco-word {
         color: var(--dark-green) !important;
-        font-size: 2em !important;
+        font-size: 1.6em !important;
         margin-right: 2%;
     }
 
     .esforco-word-rotate {
-        display: inline-block;
+        display: inline-flex;
         transform: rotate(-90deg);
-        margin-bottom: 100%;
+        margin-left: -0.65em;
+        margin-top: 1em;
     }
 
     .esforco-arrow {
-        width: 84%;
+        width: 70%;
     }
 
     .sub-grid-span-2 {
