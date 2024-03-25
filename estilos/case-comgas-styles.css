@@ -261,6 +261,7 @@
         display: inline-block;
         transform: rotate(-90deg);
         margin-top: 30%;
+        margin-left: -25%;
     }
 
     .esforco-arrow {

@@ -196,22 +196,22 @@
     }
 
     .valor-aside-container {
-            text-align: center; 
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            margin-bottom: 100%;
+        text-align: center; 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 100%;
     }
 
     .valor-aside-img {
-        width: 70%;
+        width: 100%;
     }
 
     .container-basic-grid {
         display: grid;
         width: 100%;
         align-items: center;
-        grid-template-columns: 5% 95%;
+        grid-template-columns: 3% 97%;
         gap: 3.5px;
     }
 
@@ -226,32 +226,32 @@
         border-radius: 5px;
         width: 100%;
         min-width: 100%;
-        height: 25em;
+        height: 30em;
         align-self: center;
         text-align: left;
+        word-wrap:break-word;
     }
 
     .sub-grid-50-item ul {
-        font-size: 0.9rem !important;
-        margin-left: 0;
-        margin-bottom: 0;
+        font-size: 1rem !important;
     }
 
     .esforco-word {
         color: var(--dark-green) !important;
-        font-size: 1.6em !important;
+        font-size: 1.1em !important;
         margin-right: 2%;
     }
 
     .esforco-word-rotate {
         display: inline-flex;
         transform: rotate(-90deg);
-        margin-left: -0.65em;
-        margin-top: 1em;
+        margin-left: -0.7em;
+        margin-top: 1.25em;
     }
 
     .esforco-arrow {
-        width: 70%;
+        width: 80%;
+        height: 50%;
     }
 
     .sub-grid-span-2 {
@@ -292,4 +292,9 @@
         display: flex !important;
     }
     
+    .list-on-cards {
+        padding: 0;
+        padding-left: 10%;
+        padding-right: 5%;
+    }
 }
