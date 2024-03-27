@@ -208,10 +208,6 @@
         margin-right: 0.75em;
     }
 
-    .tons-cinza {
-        width: 10.7% !important;
-    }
-
     .flexible-img {
         max-width: 100%;
         height: auto;
@@ -311,6 +307,23 @@
 
     .mobile-davi {
         display: none !important;
+    }
+
+    .desktop-only {
+        display: flex !important;
+    }
+
+    .mobile-only {
+        display: none !important;
+    }
+
+    .tons-cinza-container {
+        justify-content: end !important;
+        align-items: end !important;
+    }
+
+    .tons-cinza-card-desktop {
+        width: 12% !important;
     }
 
     @media screen and (min-width: 1920px) {
