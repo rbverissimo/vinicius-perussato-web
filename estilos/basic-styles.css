@@ -229,17 +229,17 @@ ul.custom-marker li::marker {
     }
 
 
-    .image-spacing {
-        margin-top: 15%;
-        margin-bottom: 15%;
-        max-width: 100%;
-        height: auto;
-    }
+.image-spacing {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    max-width: 100%;
+    height: auto;
+}
 
-    .flex-image {
-        width: 100%;
-        height: auto;
-    }
+.flex-image {
+    width: 100%;
+    height: auto;
+}
 
 .container-margin-small {
     margin-bottom: 3vh;
